@@ -1,0 +1,185 @@
+{
+  "schema": "discourse-of-course/legitimation-pilot/v0",
+  "scope": "Paris-London art criticism, 1708-1765, three critics with documented but different routes to standing",
+  "note": "Records transcribe the Perplexity pilot spec (docs/source/perplexity-2026-11-14-legitimation.md). Confidence 'low' marks facts the spec took from a Hogarth enthusiast site; 'medium' marks well-known history written from general knowledge that still needs a primary-source check. Nothing here is a verified finding. The pilot passes only on medium/high-confidence events; Richardson currently has one such outcome, so the shipped result is INCONCLUSIVE until his reception is sourced.",
+  "receivers": [
+    {
+      "id": "academie",
+      "name": "Royal Academy of Painting and Sculpture (Paris) and its members"
+    },
+    {
+      "id": "amateurs",
+      "name": "collectors and amateurs (connoisseur public)"
+    },
+    {
+      "id": "subscribers",
+      "name": "Grimm's Correspondance subscriber circle of European courts"
+    },
+    {
+      "id": "later_scholars",
+      "name": "later scholars, markets and canon-makers"
+    }
+  ],
+  "critics": [
+    {
+      "id": "de_piles",
+      "name": "Roger de Piles",
+      "orientation": "quantified comparative judgment (graded scales)",
+      "position": "amateur-diplomat close to the Academie (unsourced), outside its teaching hierarchy",
+      "claims": [
+        {
+          "id": "dp_scales",
+          "text": "painters can be compared on numbered scales (composition, drawing, colour, expression); offered 'for my own pleasure'",
+          "asserted": "coterie"
+        }
+      ]
+    },
+    {
+      "id": "richardson",
+      "name": "Jonathan Richardson",
+      "orientation": "connoisseurship as a science",
+      "position": "London portraitist-theorist writing for gentlemen collectors",
+      "claims": [
+        {
+          "id": "ri_science",
+          "text": "judging pictures is a learnable science with rules a gentleman can master",
+          "asserted": "field"
+        }
+      ]
+    },
+    {
+      "id": "diderot",
+      "name": "Denis Diderot",
+      "orientation": "criticism as literary performance",
+      "position": "man of letters writing outside any art institution",
+      "claims": [
+        {
+          "id": "di_salon",
+          "text": "the Salon review is itself a literary work whose standing is the writer's own",
+          "asserted": "coterie"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e_dp_claim",
+      "critic": "de_piles",
+      "field": "authority_claim",
+      "year": 1708,
+      "claim": "dp_scales",
+      "source": "perplexity-2026-11-14 (timeline section 4)",
+      "confidence": "medium"
+    },
+    {
+      "id": "e_dp_now",
+      "critic": "de_piles",
+      "field": "recognition_outcome",
+      "year": 1708,
+      "timing": "immediate",
+      "claim": "dp_scales",
+      "receiver": "academie",
+      "outcome": "ignored",
+      "granted": "none",
+      "source": "perplexity-2026-11-14: authority disclaimed as private pleasure; verify against primary reception",
+      "confidence": "low"
+    },
+    {
+      "id": "e_dp_later",
+      "critic": "de_piles",
+      "field": "recognition_outcome",
+      "year": 2002,
+      "timing": "posthumous",
+      "claim": "dp_scales",
+      "receiver": "later_scholars",
+      "outcome": "granted",
+      "granted": "field",
+      "source": "Ginsburgh and Weyers 2002; Graddy 2013 J. Econ. History 73(3): his ratings predicted later returns and acclaim. Scholars treating the ratings as a usable instrument is recorded as a field-level grant; predictive power is NOT counted as proof he was right",
+      "confidence": "medium"
+    },
+    {
+      "id": "e_ri_claim",
+      "critic": "richardson",
+      "field": "authority_claim",
+      "year": 1715,
+      "claim": "ri_science",
+      "source": "perplexity-2026-11-14 (audience described, reception not)",
+      "confidence": "low"
+    },
+    {
+      "id": "e_ri_now",
+      "critic": "richardson",
+      "field": "recognition_outcome",
+      "year": 1715,
+      "timing": "immediate",
+      "claim": "ri_science",
+      "receiver": "amateurs",
+      "outcome": "granted",
+      "granted": "field",
+      "source": "perplexity-2026-11-14: one peer endorsement from a Hogarth enthusiast site, check against primary texts",
+      "confidence": "low"
+    },
+    {
+      "id": "e_ri_rej",
+      "critic": "richardson",
+      "field": "recognition_outcome",
+      "year": 1755,
+      "timing": "later",
+      "claim": "ri_science",
+      "receiver": "academie",
+      "outcome": "pending",
+      "granted": "none",
+      "source": "placeholder: Dortous de Mairan 1755 critique from a Hogarth enthusiast site; French and English reception NOT established. Kept as low-confidence, excluded from the evidence-grade pass",
+      "confidence": "low"
+    },
+    {
+      "id": "e_di_claim",
+      "critic": "diderot",
+      "field": "authority_claim",
+      "year": 1759,
+      "claim": "di_salon",
+      "source": "general knowledge: Salons circulated by subscription from 1759; verify",
+      "confidence": "medium"
+    },
+    {
+      "id": "e_di_now",
+      "critic": "diderot",
+      "field": "recognition_outcome",
+      "year": 1759,
+      "timing": "immediate",
+      "claim": "di_salon",
+      "receiver": "subscribers",
+      "outcome": "granted",
+      "granted": "coterie",
+      "source": "perplexity-2026-11-14: small subscriber circle",
+      "confidence": "medium"
+    },
+    {
+      "id": "e_di_later",
+      "critic": "diderot",
+      "field": "recognition_outcome",
+      "year": 1795,
+      "timing": "posthumous",
+      "claim": "di_salon",
+      "receiver": "later_scholars",
+      "outcome": "granted",
+      "granted": "canon",
+      "source": "Salons first published 1795-1798 (general knowledge, verify); perplexity-2026-11-14: fame among later writers",
+      "confidence": "medium"
+    }
+  ],
+  "field_changes": [
+    {
+      "id": "fc_dp",
+      "critic": "de_piles",
+      "because": "e_dp_later",
+      "change": "numbered scales become an accepted way to compare painters; the Academie later adopts comparable grading vocabulary (to verify)"
+    },
+    {
+      "id": "fc_di",
+      "critic": "diderot",
+      "because": "e_di_later",
+      "change": "the review becomes a literary genre with standing of its own"
+    }
+  ]
+}
