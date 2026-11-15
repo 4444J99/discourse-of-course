@@ -141,7 +141,7 @@ def signature(data: dict[str, Any], critic_id: str, evidence_only: bool = False)
     evs = [
         e for e in data["events"]
         if e["critic"] == critic_id and e["field"] == "recognition_outcome"
-        and (not evidence_only or e["confidence"] in EVIDENCE)
+        and (not evidence_only or (e["confidence"] in EVIDENCE and e["outcome"] != "pending"))
     ]
     evs.sort(key=lambda e: (e["year"], e["id"]))
     return tuple((e["timing"], e["receiver"], e["outcome"]) for e in evs)
@@ -166,6 +166,15 @@ def gaps(data: dict[str, Any], evidence_only: bool = False) -> list[dict[str, An
 
 
 def evaluate(data: dict[str, Any]) -> Result:
+    try:
+        return _evaluate(data)
+    except (KeyError, TypeError, AttributeError) as exc:
+        res = Result()
+        res.fail(f"malformed record: {exc!r}")
+        return res
+
+
+def _evaluate(data: dict[str, Any]) -> Result:
     """FAIL: a rule broke or the critics look alike on the evidence.
     INCONCLUSIVE: rules hold but low-confidence rows are all that separate a critic.
     PASS: the criteria hold on medium/high-confidence events alone."""

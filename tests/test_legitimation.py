@@ -16,6 +16,7 @@ def sourced():
     d = fresh()
     for e in d["events"]:
         e["confidence"] = "medium"
+    ev(d, "e_ri_rej").update(outcome="rejected", granted="none")  # verified reception replaces the placeholder
     return d
 
 
@@ -144,6 +145,17 @@ class PilotTest(unittest.TestCase):
         del d["events"][0]["id"]
         self.assertFalse(L.evaluate(d).passed)
         self.assertFalse(L.evaluate({}).passed)
+        d = sourced()
+        d["field_changes"] = ["x"]
+        self.assertFalse(L.evaluate(d).passed)
+
+    def test_pending_is_not_a_reception(self):
+        d = sourced()
+        res = L.evaluate(d)
+        self.assertTrue(res.passed, res.errors)
+        d = sourced()
+        ev(d, "e_di_later").update(outcome="pending", granted="none")
+        self.assertFalse(L.evaluate(d).passed)
 
 
 if __name__ == "__main__":

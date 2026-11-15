@@ -40,3 +40,7 @@ PYTHONPATH=src python3 -m unittest discover -s tests
 1. Fetch the Perplexity project files (Legitimation Pilot spec, design proposal, synthesis matrix) and import them under `docs/`.
 2. Map the pilot records onto the house schema and add the `legitimation` and `timing` extensions to the design proposal.
 3. Verify the low-confidence events against primary sources.
+
+## Review dispositions (independent review, 2 rounds, 2026-11-15)
+
+Fixed: placeholder-driven pass, correctness/orientation rules, outcome/level consistency, missing-key crashes, `pending` counted as a reception. Deferred, filed here as work: free-text and nested forbidden-key scan; requiring a citation shape (not just non-empty) in `source`; checking the evidence grade of a field change's `because` event; date sanity (posthumous vs death year); modelling `position` and `granting_receiver` as events.
