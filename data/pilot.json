@@ -36,7 +36,7 @@
     {
       "id": "de_piles",
       "name": "Roger de Piles",
-      "orientation": "quantified comparative judgment (graded scales)",
+      "orientation": "taxonomic-quantitative",
       "position": "amateur: Conseiller honoraire of the Academie royale from 1699 (Procès-verbaux III p. 259; listed 'Conseiller-Amateur' IV p. 81 by inference), outside its teaching hierarchy",
       "claims": [
         {
@@ -54,7 +54,7 @@
     {
       "id": "richardson",
       "name": "Jonathan Richardson",
-      "orientation": "connoisseurship as a science",
+      "orientation": "empirical-judicial",
       "position": "London portrait painter and theorist addressing gentlemen who are 'Lovers' and 'Connoisseurs' or may become so (Two Discourses 1719, discourse II p. 157)",
       "claims": [
         {
@@ -67,8 +67,8 @@
     {
       "id": "diderot",
       "name": "Denis Diderot",
-      "orientation": "criticism as literary performance",
-      "position": "man of letters writing outside any art institution",
+      "orientation": "embodied-dialogic",
+      "position": "Encyclopedie editor writing for a private manuscript newsletter (spec section 5.3), outside any art institution",
       "claims": [
         {
           "id": "di_salon",
@@ -133,7 +133,7 @@
       "receiver": "savants",
       "outcome": "contested",
       "granted": "coterie",
-      "source": "Mairan, 'Remarques sur la Balance des Peintres de M. de Piles', Memoires de l'Academie royale des sciences, annee 1755 (Paris: Imprimerie royale, 1761), Memoires p. 1 ff.; summary in the Histoire, section Geometrie, p. 79: 'L'idee de M. de Piles est ingenieuse et nouvelle' but 'il n'en est pas de meme du cote de l'execution'; Mairan's main correction is that the four degrees should be multiplied, not added. Mairan adopts the idea as 'essais de justesse'. Scan: archive.org histoiredelacad55acad. This is the 'Mairan 1755' item the Perplexity spec attached to Richardson; it concerns De Piles.",
+      "source": "Mairan, 'Remarques sur la Balance des Peintres de M. de Piles', Memoires de l'Academie royale des sciences, annee 1755 (Paris: Imprimerie royale, 1761), Memoires p. 1 ff.; summary in the Histoire, section Geometrie, p. 79: 'L'idee de M. de Piles est ingenieuse et nouvelle' but 'il n'en est pas de meme du cote de l'execution'; Mairan's main correction is that the four degrees should be multiplied, not added. Mairan adopts the idea as 'essais de justesse'. Scan: archive.org histoiredelacad55acad. The spec attaches this item to De Piles; the v0.1 transcription had wrongly placed it under Richardson.",
       "confidence": "high"
     },
     {
@@ -163,7 +163,7 @@
       "critic": "richardson",
       "field": "recognition_outcome",
       "year": 1728,
-      "timing": "later",
+      "timing": "delayed",
       "claim": "ri_science",
       "receiver": "continental_readers",
       "outcome": "granted",
@@ -261,7 +261,7 @@
     {
       "id": "e_ri_rej (v0.1)",
       "was": "Richardson 1755 critique by Dortous de Mairan",
-      "why": "Misattributed. Mairan's 1755 'Remarques' concern De Piles's Balance (see e_dp_mairan). Richardson died in 1745."
+      "why": "Misattributed in the v0.1 transcription (the spec itself places Mairan under De Piles). Mairan's 1755 'Remarques' concern De Piles's Balance (see e_dp_mairan). Richardson died in 1745."
     }
   ]
 }

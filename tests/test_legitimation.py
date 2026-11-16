@@ -42,7 +42,7 @@ class PilotTest(unittest.TestCase):
         res = L.evaluate(v02_coding())
         self.assertFalse(res.passed)
         self.assertFalse(res.inconclusive)
-        self.assertEqual(res.errors, ["no critic shows an immediate/later reception split; timing field adds nothing"])
+        self.assertEqual(res.errors, ["no critic shows an immediate/delayed reception split; timing field adds nothing"])
 
     def test_contested_must_grant_a_level(self):
         d = fresh()
@@ -191,6 +191,19 @@ class PilotTest(unittest.TestCase):
         d = sourced()
         ev(d, "e_di_pub").update(outcome="pending", granted="none")
         self.assertFalse(L.evaluate(d).passed)
+
+    def test_imported_perplexity_files_match_their_recorded_hashes(self):
+        import hashlib, re
+        d = Path(__file__).resolve().parents[1] / "docs" / "perplexity"
+        prov = (d / "PROVENANCE.md").read_text(encoding="utf-8")
+        for name in ("legitimation-pilot-spec.md", "minotaur-poem-critic-panel.md"):
+            digest = hashlib.sha256((d / name).read_bytes()).hexdigest()
+            self.assertIn(digest, prov, name)
+
+    def test_timing_vocabulary_matches_the_spec(self):
+        self.assertEqual(L.TIMINGS, ("immediate", "delayed", "posthumous"))
+        spec = (Path(__file__).resolve().parents[1] / "docs" / "perplexity" / "legitimation-pilot-spec.md").read_text(encoding="utf-8")
+        self.assertIn("immediate / delayed / posthumous", spec)
 
 
 if __name__ == "__main__":
