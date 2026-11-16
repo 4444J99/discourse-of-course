@@ -61,6 +61,14 @@ Kept, with reasons:
 - **Immediate reception of the Balance.** The spec says contemporaries read it as a "clever way to characterize genius" (medium). No primary record of that was found; the Procès-verbaux only record thanks for the book. Not coded.
 - **Diderot.** The spec's rows rest on the research PDF and Starobinski; the pilot only has secondary web sources (medium) and keeps the "canon" row low.
 
+Also kept, and now listed:
+
+- **Timing labels.** The spec tags Mairan 1755 `delayed`; the pilot uses `posthumous` for Richardson 1715, Mairan 1755 and all later rows because De Piles had died in 1709. Only Richardson's 1728 translation (Richardson alive) is `delayed`.
+- **Orientation labels** now use the spec's (`taxonomic-quantitative`, `empirical-judicial`, `embodied-dialogic`); v0.1 had free text. Diderot's position follows spec section 5.3.
+- **Diderot's authority-claim date.** The spec dates the claim event to the 1765 Greuze Salon; the pilot dates the claim to 1759, the start of the Salons.
+- **Richardson's receivers.** The spec's immediate receiver is a projected Grand Tour gentry, "projected, not attested"; the pilot records only attested receptions (1728 translation, Northcote 1813) and has no immediate row for him.
+- **The Mairan item.** The spec places it under De Piles. The v0.1 pilot transcription had put it under Richardson; that was the transcription's error, fixed in PR 2.
+
 Not yet implemented from the spec:
 
 - The house-schema mapping (section 5: `lineage`, `saturation`, `reception_distribution`, `displacement`, `feedback`, plus the `legitimation` block and a `timing` key on receptions), and the W4 split into W4a (channels are additive) and W4b (consecrating authority migrates) before encoding.
