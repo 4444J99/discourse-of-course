@@ -215,6 +215,17 @@ class PilotTest(unittest.TestCase):
         spec = (Path(__file__).resolve().parents[1] / "docs" / "perplexity" / "legitimation-pilot-spec.md").read_text(encoding="utf-8")
         self.assertIn("immediate / delayed / posthumous", spec)
 
+    def test_research_pdf_files_match_recorded_hashes_and_quoted_claims(self):
+        import hashlib
+        d = Path(__file__).resolve().parents[1] / "docs" / "research"
+        prov = (d / "PROVENANCE.md").read_text(encoding="utf-8")
+        for p in sorted(d.glob("History of Discourse*")):
+            self.assertIn(hashlib.sha256(p.read_bytes()).hexdigest(), prov, p.name)
+        text = " ".join((d / "History of Discourse and Personas in Art Creation.txt").read_text(encoding="utf-8").split())
+        for s in ("graded 56 canonical painters", "written for my own pleasure", "dignity, certainty, pleasure, and advantage",
+                  "Rembrandt", "clever way to characterize genius"):
+            self.assertIn(s, text, s)
+
 
 if __name__ == "__main__":
     unittest.main()

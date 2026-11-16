@@ -88,6 +88,7 @@ Reconciliation against the whole spec (status as of this commit; "built" means e
 | 6 Pass: every record traces to a cited passage | Built for high-confidence rows (test checks a place in a text); medium rows are secondary or estimated. |
 | 7 Out of scope (nine other episodes, constitutive rhetoric, negation (Third Persona), algorithmic receivers, persona names, optimizing for legitimacy) | Respected; nothing here encodes them. |
 | 8 Scholarship: Ginsburgh and Weyers 2002 and 2008, Graddy 2013, Ginsburgh and Weyers 2006 context | Graddy 2013 abstract read; G&W 2002 cited, not read in full; G&W 2008 (41 painters, 525 sales, +64.6 lines, +11.9 percent) not read or encoded; the 2006 Poetics paper is context only. |
+| 8b Research PDF (the spec's source for the timeline, p. 7-10) | Imported (`docs/research/`); its De Piles disclaimer and Rembrandt-over-Michelangelo order match the primary texts the pilot read; its 56 painters vs Graddy's 58 is unresolved. |
 | 9 Known limits (visual-art source; unverified 1715 and 1755 items; Richardson projected; the `legitimation` block and reception `timing` key extend the house schema and should be folded into the design proposal before other periods) | The 1715 and 1755 items were checked against primary texts (PR 2); Richardson stays thin; the schema extensions are not yet folded into the proposal (the proposal copy here is unchanged). |
 
 Other project files, now in `docs/perplexity/` and not yet used by the pilot: the seven-slot category system, the persona-by-aesthetic-family matrix, stress test, validation corpus, commissioning package and supplement, two worked commissions, and the design proposal.
@@ -95,7 +96,7 @@ Other project files, now in `docs/perplexity/` and not yet used by the pilot: th
 ## Next
 
 1. Test v0.3 on a second period before trusting it (the spec says to apply the model to other periods only after the pilot holds).
-2. Do the spec's section 5 mapping and W4 split against the imported design proposal; fetch `literature-synthesis-matrix-v2.md` and the research PDF if they exist in the project (they were not in its file list).
+2. Do the spec's section 5 mapping and W4 split against the imported design proposal; `literature-synthesis-matrix-v2.md` was searched for everywhere local and not found (`docs/research/PROVENANCE.md`); the research PDF was found in the owner's iCloud Downloads and is imported in `docs/research/`.
 3. Diderot: read the primary Salons and a scholarly edition (Naigeon 1800 vs the conflicting 1795 date).
 
 ## Review dispositions (independent review, 2 rounds, 2026-11-15)
