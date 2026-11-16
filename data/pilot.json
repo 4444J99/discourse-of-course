@@ -1,35 +1,31 @@
 {
   "schema": "discourse-of-course/legitimation-pilot/v0",
-  "scope": "Paris-London art criticism, 1708-1765, three critics with documented but different routes to standing",
-  "note": "Records transcribe the Perplexity pilot spec (docs/source/perplexity-2026-11-14-legitimation.md). Confidence 'low' marks facts the spec took from a Hogarth enthusiast site; 'medium' marks well-known history written from general knowledge that still needs a primary-source check. Nothing here is a verified finding. The pilot passes only on medium/high-confidence events; Richardson currently has one such outcome, so the shipped result is INCONCLUSIVE until his reception is sourced.",
+  "scope": "Paris-London art criticism, 1699-1813 (critics active 1708-1765), three critics with documented but different routes to standing",
+  "note": "v0.2. The De Piles and Richardson reception rows are sourced from texts read in full-text scans (editions and pages in each 'source'; scans listed in docs/sources.md). Level rule used for every row: a single named receiver or editor acting alone is 'coterie'; a body acting formally is 'field'; 'canon' needs a source that says so and none was found. Confidence: high = primary text read; medium = authoritative secondary read, or a primary read with an estimated date; low = unsourced. Unsourced rows are kept as low and cannot carry the verdict. Nothing here is a finding about whether any critic was right.",
   "receivers": [
-    {
-      "id": "academie",
-      "name": "Royal Academy of Painting and Sculpture (Paris) and its members"
-    },
-    {
-      "id": "amateurs",
-      "name": "collectors and amateurs (connoisseur public)"
-    },
-    {
-      "id": "subscribers",
-      "name": "Grimm's Correspondance subscriber circle of European courts"
-    },
-    {
-      "id": "later_scholars",
-      "name": "later scholars, markets and canon-makers"
-    }
+    {"id": "academie", "name": "Royal Academy of Painting and Sculpture (Paris), its Protector and members"},
+    {"id": "amateurs", "name": "collectors and amateurs (connoisseur public)"},
+    {"id": "savants", "name": "Academie royale des sciences (Paris)"},
+    {"id": "practitioners", "name": "painters and their biographers"},
+    {"id": "continental_readers", "name": "French-reading public on the Continent (via the Amsterdam translation)"},
+    {"id": "subscribers", "name": "Grimm's Correspondance subscriber circle of European courts"},
+    {"id": "later_scholars", "name": "later scholars, editors, markets and canon-makers"}
   ],
   "critics": [
     {
       "id": "de_piles",
       "name": "Roger de Piles",
       "orientation": "quantified comparative judgment (graded scales)",
-      "position": "amateur-diplomat close to the Academie (unsourced), outside its teaching hierarchy",
+      "position": "amateur: Conseiller honoraire of the Academie royale from 1699 (Procès-verbaux III p. 259; listed 'Conseiller-Amateur' IV p. 81 by inference), outside its teaching hierarchy",
       "claims": [
         {
+          "id": "dp_principles",
+          "text": "painting and sculpture need certain principles, which an amateur can state to the Academie (Discours read 6 July 1699)",
+          "asserted": "field"
+        },
+        {
           "id": "dp_scales",
-          "text": "painters can be compared on numbered scales (composition, drawing, colour, expression); offered 'for my own pleasure'",
+          "text": "painters can be compared on numbered scales (composition, drawing, colour, expression); offered 'plutot pour me divertir que pour attirer les autres dans mon sentiment'",
           "asserted": "coterie"
         }
       ]
@@ -38,11 +34,11 @@
       "id": "richardson",
       "name": "Jonathan Richardson",
       "orientation": "connoisseurship as a science",
-      "position": "London portraitist-theorist writing for gentlemen collectors",
+      "position": "London portrait painter and theorist addressing gentlemen who are 'Lovers' and 'Connoisseurs' or may become so (Two Discourses 1719, discourse II p. 157)",
       "claims": [
         {
           "id": "ri_science",
-          "text": "judging pictures is a learnable science with rules a gentleman can master",
+          "text": "connoisseurship is a science with dignity, certainty, pleasure and advantage, open to gentlemen (title of Two Discourses, discourse II)",
           "asserted": "field"
         }
       ]
@@ -63,74 +59,109 @@
   ],
   "events": [
     {
+      "id": "e_dp_claim_1699",
+      "critic": "de_piles",
+      "field": "authority_claim",
+      "year": 1699,
+      "claim": "dp_principles",
+      "source": "Montaiglon (ed.), Proces-verbaux de l'Academie royale de peinture et de sculpture 1648-1793, tome III (1689-1704), Paris: J. Baur, 1880, p. 268, assembly of 6 July 1699: a 'Discours sur la necessite ... d'establir des principes certains a la Peinture et a la Sculpture'. Scan: archive.org procsverbauxde03acaduoft",
+      "confidence": "high"
+    },
+    {
+      "id": "e_dp_acad_1699",
+      "critic": "de_piles",
+      "field": "recognition_outcome",
+      "year": 1699,
+      "timing": "immediate",
+      "claim": "dp_principles",
+      "receiver": "academie",
+      "outcome": "granted",
+      "granted": "field",
+      "source": "Same volume, p. 268 (6 July 1699): the Protector 'a fort recommande a la Compagnie d'en faire le cas qu'il merite' and said the Academie should address him through De Piles. Earlier, p. 259 (25 April 1699): the Compagnie invites him to take a seat among the Conseillers honoraires. The Discours itself is not transcribed in the volume.",
+      "confidence": "high"
+    },
+    {
       "id": "e_dp_claim",
       "critic": "de_piles",
       "field": "authority_claim",
       "year": 1708,
       "claim": "dp_scales",
-      "source": "perplexity-2026-11-14 (timeline section 4)",
-      "confidence": "medium"
+      "source": "De Piles, Cours de peinture par principes, Paris: Jacques Estienne, 1708, 'La Balance des Peintres', pp. 489-490: 'J'ay fait cet essai plutot pour me divertir que pour attirer les autres dans mon sentiment'; made at the request of 'quelques personnes'; 20 degrees. Scan: archive.org bub_gb_NlS7XHJ_tuYC (OCR read; privilege 23 Jan 1708, approbation of the censor Raguet 19 Jan 1708 on the whole book: 'tres-utile et tres-agreable au Public')",
+      "confidence": "high"
     },
     {
-      "id": "e_dp_now",
+      "id": "e_dp_richardson",
       "critic": "de_piles",
       "field": "recognition_outcome",
-      "year": 1708,
-      "timing": "immediate",
+      "year": 1715,
+      "timing": "posthumous",
       "claim": "dp_scales",
-      "receiver": "academie",
-      "outcome": "ignored",
-      "granted": "none",
-      "source": "perplexity-2026-11-14: authority disclaimed as private pleasure; verify against primary reception",
-      "confidence": "low"
+      "receiver": "amateurs",
+      "outcome": "granted",
+      "granted": "coterie",
+      "source": "J. Richardson, An Essay on the Theory of Painting, London: W. Bowyer for John Churchill, 1715, p. 230-231: the scale 'is Curious, and Useful' but 'gives not a just Idea of the Masters' (Rembrandt rated above Michelangelo). Two Discourses, London: W. Churchill, 1719, discourse I, p. 55 (folio read from OCR): 'with a little Alteration and Improvement may be of great use to Lovers of Art, and Connoisseurs', then pp. 55-56 his own revised scale. A single connoisseur adopting the scale with corrections, 6 years after De Piles's death (Procès-verbaux IV, p. 81 by inference from the next page header, assembly of 6 April 1709: died 'hier, cinquieme du present mois'). Scans: archive.org bim_eighteenth-century_an-essay-on-the-theory-o_richardson-jonathan_1715, twodiscoursesies00rich",
+      "confidence": "high"
+    },
+    {
+      "id": "e_dp_mairan",
+      "critic": "de_piles",
+      "field": "recognition_outcome",
+      "year": 1755,
+      "timing": "posthumous",
+      "claim": "dp_scales",
+      "receiver": "savants",
+      "outcome": "granted",
+      "granted": "coterie",
+      "source": "Mairan, 'Remarques sur la Balance des Peintres de M. de Piles', Memoires de l'Academie royale des sciences, annee 1755 (Paris: Imprimerie royale, 1761), Memoires p. 1 ff.; summary in the Histoire, section Geometrie, p. 79: 'L'idee de M. de Piles est ingenieuse et nouvelle' but 'il n'en est pas de meme du cote de l'execution'; Mairan's main correction is that the four degrees should be multiplied, not added. Mairan adopts the idea as 'essais de justesse'. Scan: archive.org histoiredelacad55acad. This is the 'Mairan 1755' item the Perplexity spec attached to Richardson; it concerns De Piles.",
+      "confidence": "high"
     },
     {
       "id": "e_dp_later",
       "critic": "de_piles",
       "field": "recognition_outcome",
-      "year": 2002,
+      "year": 2013,
       "timing": "posthumous",
       "claim": "dp_scales",
       "receiver": "later_scholars",
       "outcome": "granted",
       "granted": "field",
-      "source": "Ginsburgh and Weyers 2002; Graddy 2013 J. Econ. History 73(3): his ratings predicted later returns and acclaim. Scholars treating the ratings as a usable instrument is recorded as a field-level grant; predictive power is NOT counted as proof he was right",
+      "source": "Graddy, 'Taste Endures! The Rankings of Roger de Piles (d. 1709) and Three Centuries of Art Prices', Journal of Economic History 73(3), 2013, pp. 766-791, doi 10.1017/S0022050713000600 (abstract read via Crossref: his overall ratings 'have withstood the test of a very long period of time'); Ginsburgh and Weyers, 'De Piles, Drawing and Color. An Essay in Quantitative Art History', Artibus et Historiae 23(45), 2002, pp. 191-203 (citation verified via Crossref; text not read in full). Scholars treating the ratings as a usable instrument is recorded as a field-level grant; predictive power is NOT counted as proof he was right.",
       "confidence": "medium"
     },
     {
       "id": "e_ri_claim",
       "critic": "richardson",
       "field": "authority_claim",
-      "year": 1715,
+      "year": 1719,
       "claim": "ri_science",
-      "source": "perplexity-2026-11-14 (audience described, reception not)",
-      "confidence": "low"
+      "source": "Richardson, Two Discourses, London: W. Churchill, 1719, discourse II title page: 'An Argument in behalf of the Science of a Connoisseur; wherein is shewn the Dignity, Certainty, Pleasure, and Advantage of it'; addressed to 'Gentlemen who are Not yet Lovers, and Connoisseurs' (discourse II p. 157). Scan: archive.org twodiscoursesies00rich",
+      "confidence": "high"
     },
     {
-      "id": "e_ri_now",
+      "id": "e_ri_fr1728",
       "critic": "richardson",
       "field": "recognition_outcome",
-      "year": 1715,
-      "timing": "immediate",
-      "claim": "ri_science",
-      "receiver": "amateurs",
-      "outcome": "granted",
-      "granted": "field",
-      "source": "perplexity-2026-11-14: one peer endorsement from a Hogarth enthusiast site, check against primary texts",
-      "confidence": "low"
-    },
-    {
-      "id": "e_ri_rej",
-      "critic": "richardson",
-      "field": "recognition_outcome",
-      "year": 1755,
+      "year": 1728,
       "timing": "later",
       "claim": "ri_science",
-      "receiver": "academie",
-      "outcome": "pending",
-      "granted": "none",
-      "source": "placeholder: Dortous de Mairan 1755 critique from a Hogarth enthusiast site; French and English reception NOT established. Kept as low-confidence, excluded from the evidence-grade pass",
-      "confidence": "low"
+      "receiver": "continental_readers",
+      "outcome": "granted",
+      "granted": "coterie",
+      "source": "Traite de la peinture et de la sculpture, par Mrs. Richardson, pere et fils, Amsterdam: Herman Uytwerf, 1728, 3 vols; vol. II title page: 'Un Discours sur la Science d'un Connoisseur ... Traduit de l'Anglois, revu et corrige par l'Auteur' (nine years after 1719; Richardson d. 1745). A translation exists and the author revised it; no sales or review evidence was found. Scans: archive.org bub_gb_54yu83dWracC, bub_gb_CMR_s1fWdKkC",
+      "confidence": "high"
+    },
+    {
+      "id": "e_ri_northcote",
+      "critic": "richardson",
+      "field": "recognition_outcome",
+      "year": 1813,
+      "timing": "posthumous",
+      "claim": "ri_science",
+      "receiver": "practitioners",
+      "outcome": "granted",
+      "granted": "coterie",
+      "source": "James Northcote, Memoirs of Sir Joshua Reynolds, London: Henry Colburn, 1813, p. 179: of Richardson's 'Science of a Connoisseur' 'The whole subject is well handled by Richardson, and may be read with pleasure'. One painter-biographer, 68 years after Richardson's death. (Not coded: Northcote pp. 10-11 say Reynolds as a boy read Richardson's Theory of Painting and had his 'first fondness for his art excited' by it; that is reception of the Theory, undated, not of the connoisseurship claim.) Scan: archive.org memoirsofsirjosh01nort",
+      "confidence": "high"
     },
     {
       "id": "e_di_claim",
@@ -138,7 +169,7 @@
       "field": "authority_claim",
       "year": 1759,
       "claim": "di_salon",
-      "source": "general knowledge: Salons circulated by subscription from 1759; verify",
+      "source": "fr.wikipedia 'Salons (Diderot)' (secondary, read): nine Salons written 1759-1781 for Grimm's Correspondance litteraire. Primary text not read.",
       "confidence": "medium"
     },
     {
@@ -151,11 +182,24 @@
       "receiver": "subscribers",
       "outcome": "granted",
       "granted": "coterie",
-      "source": "perplexity-2026-11-14: small subscriber circle",
+      "source": "ARTFL (Univ. of Chicago) 'Grimm's Correspondance litteraire' page (read): newsletter 'distributed between 1753 and 1790', a 'very small' subscriber base including European nobles; Diderot 'first published' the Salons there. fr.wikipedia 'Salons (Diderot)': each copy handwritten for a subscriber. Subscriber count not found.",
       "confidence": "medium"
     },
     {
-      "id": "e_di_later",
+      "id": "e_di_pub",
+      "critic": "diderot",
+      "field": "recognition_outcome",
+      "year": 1800,
+      "timing": "posthumous",
+      "claim": "di_salon",
+      "receiver": "later_scholars",
+      "outcome": "granted",
+      "granted": "coterie",
+      "source": "fr.wikipedia 'Salons (Diderot)' (secondary, read): Salons de 1765 et 1767 edited posthumously by J.-A. Naigeon, Paris, 1800, vol. 13 (cites Gallica; not opened). One editor printing the text. Another snippet gave 1795 for the first printing; the dates conflict and are unresolved.",
+      "confidence": "medium"
+    },
+    {
+      "id": "e_di_canon",
       "critic": "diderot",
       "field": "recognition_outcome",
       "year": 1795,
@@ -164,8 +208,8 @@
       "receiver": "later_scholars",
       "outcome": "granted",
       "granted": "canon",
-      "source": "Salons first published 1795-1798 (general knowledge, verify); perplexity-2026-11-14: fame among later writers",
-      "confidence": "medium"
+      "source": "perplexity-2026-11-14: 'fame among later writers'. No source found for canon status or for the date. Kept as low confidence; excluded from the evidence-grade pass.",
+      "confidence": "low"
     }
   ],
   "field_changes": [
@@ -173,13 +217,30 @@
       "id": "fc_dp",
       "critic": "de_piles",
       "because": "e_dp_later",
-      "change": "numbered scales become an accepted way to compare painters; the Academie later adopts comparable grading vocabulary (to verify)"
+      "change": "numbered scales become an instrument scholars use to test reputation against later prices and acclaim (Graddy 2013)"
     },
     {
       "id": "fc_di",
       "critic": "diderot",
-      "because": "e_di_later",
-      "change": "the review becomes a literary genre with standing of its own"
+      "because": "e_di_pub",
+      "change": "the Salons, written for a handful of manuscript subscribers, are printed for a general readership (Naigeon, 1800, per fr.wikipedia)"
+    }
+  ],
+  "removed_unsourced_rows": [
+    {
+      "id": "e_dp_now (v0.1)",
+      "was": "De Piles 1708 'ignored' by the Academie",
+      "why": "No Academie reception of the Balance was found. The Procès-verbaux IV p. 61 (5 May 1708) record only that he presented the Cours to the Academie and 'l'Academie l'a remercie': thanks for a gift, not a verdict on the Balance. Not coded either way."
+    },
+    {
+      "id": "e_ri_now (v0.1)",
+      "was": "Richardson 1715 granted by amateurs, from a Hogarth enthusiast site",
+      "why": "No source found. No contemporary 1715-1719 reception of Richardson was found in the texts read."
+    },
+    {
+      "id": "e_ri_rej (v0.1)",
+      "was": "Richardson 1755 critique by Dortous de Mairan",
+      "why": "Misattributed. Mairan's 1755 'Remarques' concern De Piles's Balance (see e_dp_mairan). Richardson died in 1745."
     }
   ]
 }

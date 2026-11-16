@@ -11,13 +11,15 @@ def fresh():
     return copy.deepcopy(DATA)
 
 
-def sourced():
-    """What the pilot looks like once every low-confidence row is verified."""
+def passing():
+    """Synthetic fixture, NOT a finding: one sourced De Piles reception row is flipped to a
+    rejection so the immediate/later split exists. Exercises the validator's PASS path."""
     d = fresh()
-    for e in d["events"]:
-        e["confidence"] = "medium"
-    ev(d, "e_ri_rej").update(outcome="rejected", granted="none")  # verified reception replaces the placeholder
+    ev(d, "e_dp_mairan").update(outcome="rejected", granted="none")
     return d
+
+
+sourced = passing  # older test name
 
 
 def ev(d, eid):
@@ -25,15 +27,25 @@ def ev(d, eid):
 
 
 class PilotTest(unittest.TestCase):
-    def test_shipped_pilot_is_inconclusive_not_pass(self):
+    def test_shipped_pilot_fails_on_the_timing_rule(self):
         res = L.evaluate(fresh())
         self.assertFalse(res.passed)
-        self.assertTrue(res.inconclusive)
-        self.assertEqual(L.main([]), 2)
+        self.assertFalse(res.inconclusive)
+        self.assertEqual(res.errors, ["no critic shows an immediate/later reception split; timing field adds nothing"])
+        self.assertEqual(L.main([]), 1)
 
-    def test_sourced_pilot_passes(self):
-        res = L.evaluate(sourced())
+    def test_synthetic_fixture_passes(self):
+        res = L.evaluate(passing())
         self.assertTrue(res.passed, res.errors)
+
+    def test_every_high_confidence_source_cites_a_place_in_a_text(self):
+        for e in DATA["events"]:
+            if e["confidence"] == "high":
+                self.assertRegex(e["source"], r"\bpp?\. \d|title page|archive\.org|doi", e["id"])
+
+    def test_every_critic_has_two_evidence_grade_outcomes(self):
+        for c in DATA["critics"]:
+            self.assertGreaterEqual(len(L.signature(DATA, c["id"], evidence_only=True)), 2, c["id"])
 
     def test_low_confidence_cannot_carry_the_pass(self):
         d = sourced()
@@ -46,13 +58,15 @@ class PilotTest(unittest.TestCase):
 
     def test_claimed_and_granted_gap_values(self):
         gaps = {g["event"]: g["gap"] for g in L.gaps(DATA)}
-        self.assertEqual(gaps["e_dp_now"], -1)  # claimed coterie, ignored
+        self.assertEqual(gaps["e_dp_acad_1699"], 0)  # claimed field, field granted
         self.assertEqual(gaps["e_dp_later"], 1)  # claimed coterie, field later
+        self.assertEqual(gaps["e_ri_fr1728"], -1)  # claimed field, coterie granted
         self.assertEqual(gaps["e_di_now"], 0)
 
     def test_identical_signature_fails(self):
         d = sourced()
-        for src, dst in (("e_dp_now", "e_ri_now"), ("e_dp_later", "e_ri_rej")):
+        d["events"] = [e for e in d["events"] if e["id"] != "e_di_canon"]
+        for src, dst in (("e_di_now", "e_ri_fr1728"), ("e_di_pub", "e_ri_northcote")):
             for k in ("timing", "receiver", "outcome", "granted"):
                 ev(d, dst)[k] = ev(d, src)[k]
         res = L.evaluate(d)
@@ -97,7 +111,7 @@ class PilotTest(unittest.TestCase):
     def test_outcome_and_level_must_agree(self):
         for outcome, level in (("granted", "none"), ("pending", "canon"), ("ignored", "field")):
             d = sourced()
-            e = ev(d, "e_dp_now")
+            e = ev(d, "e_dp_acad_1699")
             e["outcome"], e["granted"] = outcome, level
             self.assertFalse(L.evaluate(d).passed, (outcome, level))
 
@@ -112,7 +126,7 @@ class PilotTest(unittest.TestCase):
 
     def test_claim_must_belong_to_critic(self):
         d = sourced()
-        ev(d, "e_ri_now")["claim"] = "dp_scales"
+        ev(d, "e_ri_fr1728")["claim"] = "dp_scales"
         self.assertFalse(L.evaluate(d).passed)
 
     def test_authority_claim_event_required_and_checked(self):
@@ -125,7 +139,7 @@ class PilotTest(unittest.TestCase):
 
     def test_field_change_must_follow_granted_outcome_of_same_critic(self):
         d = sourced()
-        d["field_changes"][0]["because"] = "e_di_later"
+        d["field_changes"][0]["because"] = "e_di_pub"
         self.assertFalse(L.evaluate(d).passed)
         d = sourced()
         d["field_changes"][0]["because"] = "e_dp_claim"
@@ -154,7 +168,7 @@ class PilotTest(unittest.TestCase):
         res = L.evaluate(d)
         self.assertTrue(res.passed, res.errors)
         d = sourced()
-        ev(d, "e_di_later").update(outcome="pending", granted="none")
+        ev(d, "e_di_pub").update(outcome="pending", granted="none")
         self.assertFalse(L.evaluate(d).passed)
 
 
