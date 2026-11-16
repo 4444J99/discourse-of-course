@@ -1,0 +1,1012 @@
+The Architecture of Aesthetic
+Legitimation: A History of Art
+Meta-Discourse and Rhetorical Personas
+from Antiquity to the Algorithmic Age
+Theoretical Foundations of Art Meta-Discourse and
+Persona Construction
+The history of art is only secondarily a history of physical artifacts; primarily, it is a history of the
+linguistic, institutional, and rhetorical frameworks that make aesthetics—"understood as a
+discourse about art"—possible in the first place. Across millennia, a physical object only crosses
+the ontological boundary from mere matter or manual craft into "art" when it is enveloped by a
+meta-discourse: a second-order system of treatises, biographies, critical reviews, manifestos,
+curatorial statements, and algorithmic paratexts that foregrounds language, codifies evaluative
+methodologies, and integrates visual production into broader structures of thought, perception,
+and society. To analyze how this meta-discourse operates independently of the art object,
+modern scholarship relies on three intersecting theoretical pillars: Gérard Genette's theory of
+paratextuality, Pierre Bourdieu's sociology of symbolic goods, and rhetorical persona theory.
+In Paratexts: Thresholds of Interpretation (Seuils, 1987/1997), Gérard Genette demonstrates
+that an artistic or literary work rarely appears in a naked state; rather, it is surrounded and
+prolonged by verbal and non-verbal productions that ensure its presence in the world, its
+reception, and its consumption. Genette defines this mediating apparatus as the paratext,
+characterizing it not as a sealed frontier but as an "undecided zone" and a "vestibule" between
+the inside (the work itself) and the outside (the discourse of the world on the work). As Philippe
+Lejeune observed, this fringe of the work "in reality, controls the whole reading," functioning as a
+privileged site of pragmatics, strategy, and transaction with the public. Genette subdivides the
+paratext into two spatial categories based on their material proximity to the work. The first
+category, the peritext, encompasses elements located in immediate proximity to the primary
+object, such as signatures, titles, frames, dedications, epigraphs, and museum wall labels. The
+second category, the epitext, comprises distanced discursive elements not materially appended
+to the work—including workshop treatises, biographies, Salon reviews, manifestos, artist
+interviews, academic lectures, YouTube video essays, and TikTok process reels—that govern
+production, promotion, dissemination, reception, and extension. Crucially, Genette notes that
+much of the authorial epitext, particularly interviews, conversations, and confidences, is officious
+rather than official, allowing the creator to strategically shape public interpretation while retaining
+plausible deniability through convenient disavowals such as "That is not exactly what I said" or "I
+was talking off the cuff".
+While Genette maps the textual threshold, Pierre Bourdieu explains the socio-economic engine
+driving it. In The Rules of Art and "The Production of Belief," Bourdieu analyzes the artistic field
+as an "economy of symbolic goods" predicated on the collective disavowal and repression of
+narrow economic interests and commercial calculation. Because the symbolic and financial
+value of an artwork cannot be derived solely from the cost of its raw materials or manual labor
+hours, the field requires a specialized discursive apparatus to manufacture belief in the work's
+consecrated, autonomous status. Within this symbolic economy, the influential critic, biographer,
+dealer, or curator does not merely comment upon a pre-existing artist; rather, by conferring
+institutional consecration and symbolic capital, the meta-discursive agent acts as the "creator of
+the creator" (créateur du créateur).
+Finally, rhetorical theory reveals that these meta-discursive forms are inhabited by stylized
+human masks—personas—that structure the power dynamics of aesthetic judgment. Rather
+than treating art writing as a transparent window into an author's biography or an objective
+scientific measurement, rhetorical criticism views symbolic acts as situated strategies that
+constitute identity and social reality. Drawing from Wayne C. Booth's The Rhetoric of Fiction
+(1961), the speaking voice within any meta-discourse functions as the First Persona or "implied
+author": a rhetorical accomplishment constructed by the real author and construed by the reader
+through stylistic tokens in the text rather than external biographical facts. Whether an artist
+writes as a humble medieval monk or a militant avant-garde insurgent, or a critic writes as a
+detached scientist or an intoxicated poet, they are performing a First Persona.
+In his landmark 1970 essay "The Second Persona," Edwin Black extended Booth's framework
+to address how rhetorical texts invite moral and ideological judgment. Rejecting the formulaic
+"neo-Aristotelian" view of rhetoric that merely assessed immediate persuasion in a specific
+situation, Black argued that every discourse implies an auditor—a Second Persona—whose
+ideological world is revealed through a symptomatic reading of the stylistic tokens in the
+message. In art meta-discourse, the text tells the beholder who they must become, whether an
+aristocrat of taste, a sentimental citizen, or a radical comrade, to enter the moral-political
+universe of the work. Pushing rhetorical criticism further into its "ideological turn," Philip Wander
+(1983/1984) introduced the Third Persona: the "being in history" whose presence, though
+directly relevant to what is being said, is negated through silence, exclusion, and
+marginalization. Throughout art history, every dominant meta-discourse relies on a Third
+Persona—from the "ultracrepidarian" manual laborer barred from judging classical painting, to
+the bourgeois philistine mocked by modernism, to the uncredited human artists whose scraped
+datasets train contemporary generative artificial intelligence. Synthesizing these layers, Maurice
+Charland's theory of "constitutive rhetoric" demonstrates that even Black's position was not
+radical enough if it accepted the pre-existence of a "person" who merely chooses to identify with
+a textual persona. Instead, rhetoric is a way of being and becoming: art meta-discourse actively
+constitutes the ontological categories of "artist," "artwork," "critic," and "public".
+Analytical Dimension Theoretical Origin             Core Mechanism in Art Historical &
+                                                    Meta-Discourse             Contemporary
+                                                                               Manifestations
+Peritext                   Gérard Genette (Seuils, Materially proximate        Renaissance artist
+                           1987 / Paratexts, 1997) framing that signals        signatures; museum
+                                                    authorship, ontological wall labels; Duchamp's
+                                                    status, and institutional "R. Mutt 1917"
+                                                    authority.                 inscription; Kosuth's
+                                                                               mounted dictionary
+                                                                               photostats.
+Epitext                    Gérard Genette (Seuils, Distanced, often            Vasari's Vite; Diderot's
+                           1987 / Paratexts, 1997) "officious" commentary Salons; modernist
+                                                    that governs promotion, manifestos; YouTube
+Analytical Dimension    Theoretical Origin       Core Mechanism in Art Historical &
+                                                 Meta-Discourse             Contemporary
+                                                                            Manifestations
+                                                 dissemination,             video essays; TikTok
+                                                 reception, and strategic process videos.
+                                                 deniability.
+Creator of the Creator Pierre Bourdieu (The Collective disavowal of Apelles buying
+                       Production of Belief / economic interest             Protogenes' canvases;
+                       The Rules of Art)         where critics, dealers, Diderot championing
+                                                 and curators               Vernet and Greuze;
+                                                 consecrate the artist via independent biennial
+                                                 symbolic capital.          curators.
+First Persona          Wayne C. Booth (The The "implied author" or Theophilus as Humble
+                       Rhetoric of Fiction,      stylized speaking mask Monk; Alberti as Alter
+                       1961)                     constructed through        Deus; Baudelaire as
+                                                 textual and                Flâneur; Kosuth as
+                                                 performative tokens.       Analytic Philosopher.
+Second Persona         Edwin Black ("The         The implied auditor        The 18th-century
+                       Second Persona,"          projected by stylistic     Gentleman-Connoisseu
+                       1970)                     tokens, inviting the       r; Grimm's aristocratic
+                                                 viewer into a specific Salon subscribers; the
+                                                 moral-political and        parasocial YouTube
+                                                 aesthetic universe.        subscriber.
+Third Persona          Philip Wander ("The       The relevant historical Apelles' Cobbler
+                       Third Persona,"           subject negated            (sutor); the medieval
+                       1983/1984)                through structural         manual guildsman; the
+                                                 silence, de-skilling, or philistine bourgeois;
+                                                 ideological exclusion. uncredited artists in AI
+                                                                            training datasets.
+Constitutive Rhetoric Maurice Charland           Discourse that does not Vasari constituting
+                       ("Constitutive Rhetoric," merely persuade            "Tuscan Renaissance
+                       1987)                     pre-existing subjects, Genius"; Avant-Garde
+                                                 but brings new             manifestos constituting
+                                                 collective identities into "Modernism"; TikTok
+                                                 being.                     constituting "Aesthetic
+                                                                            Laborers".
+Classical Antiquity and the Medieval Scriptorium:
+Craft, Mimesis, and Anagogical Vision
+Classical Antiquity: Ekphrasis, the Sovereign Virtuoso, and the
+Ultracrepidarian Boundary
+In Classical Greece and Rome, visual art production was institutionally categorized as
+techne—manual craft governed by rule-bound physical labor—while the meta-discourse
+surrounding it was controlled by philosophers, rhetoricians, and encyclopedists. Plato and
+Aristotle established the foundational philosophical meta-discourse by interrogating mimesis,
+the hierarchy of the senses (both ranking touch well below sight), and the relationship of visual
+form to the human soul. Alongside philosophical treatises, classical literary culture developed
+ekphrasis, a rhetorical mode of vivid description in which the orator or poet attributed a living
+voice and psychological interiority to a mute statue or painting, staging a competition between
+verbal eloquence and visual illusion.
+The most consequential classical meta-discourse for the long-term history of artistic personas,
+however, emerged in the anecdotal historiography of Pliny the Elder's Naturalis Historia (Book
+35) and Quintilian's Institutio Oratoria (XII.10.6). Centering on the fourth-century BCE painter
+Apelles of Kos—who worked with a restricted four-color palette of white, red, yellow, and black
+covered with a specialized translucent varnish—Pliny constructed two enduring paradigms of
+aesthetic authority: the policing of critical jurisdiction and the artist as market-consecrating
+connoisseur. In Book 35.85, Pliny records that Apelles habitually displayed his finished paintings
+in public while hiding behind the panel to overhear the critiques of passersby. When a
+shoemaker (sutor) approached and pointed out a defect in the rendering of a sandal (crepida,
+from the Greek krepis), Apelles duly corrected the error. Emboldened by this success, the
+shoemaker returned and began criticizing the representation of the subject's leg. Indignant,
+Apelles emerged from his hiding place and issued the reprimand that immediately became
+proverbial across antiquity: "Ne supra crepidam sutor iudicaret" ("Let a shoemaker not judge
+beyond the shoe").
+The structural implications of this anecdote for art meta-discourse are threefold. First, Apelles
+executes a sharp jurisdictional boundary-work, bifurcating the artwork into a lower register of
+empirical, mechanical accuracy—where the manual tradesman's domain knowledge is
+valid—and a higher, synthetic register of anatomical grace and aesthetic judgment, where the
+layman is strictly disenfranchised. Second, by silencing the cobbler above the sandal, classical
+meta-discourse constructs the manual worker and uninitiated spectator as Wander's Third
+Persona: relevant as a passive beholder, but negated as a critical voice. Third, this
+boundary-work enjoyed a vast ideological afterlife. Revived by Petrarch and Quattrocento
+humanists to elevate painting above guild mechanics, painted by Giorgio Vasari on the walls of
+his own home in Florence (Casa Vasari), and codified in Erasmus's Adages (Ne sutor ultra
+crepidam), the dictum was weaponized in 1819 by the English Romantic essayist William Hazlitt
+in a ferocious open letter to Quarterly Review editor William Gifford. Hazlitt coined the term
+ultracrepidarian—followed four years later in 1823 by his friend Leigh Hunt's satire
+Ultra-Crepidarius: A Satire on William Gifford—to denounce pedantic critics who pass judgment
+beyond their expertise. Conversely, Karl Marx ridiculed the proverb in Volume I of Capital as
+outmoded guildfetishism, writing that "'Ne sutor ultra crepidam'—this nec plus ultra of handicraft
+wisdom became sheer nonsense, from the moment the watchmaker Watt invented the
+steam-engine, the barber Arkwright the throstle, and the working-jeweller Fulton the steamship".
+While excluding the cobbler, Pliny simultaneously cast Apelles in the First Persona of the
+Sovereign Courtly Virtuoso and Peer-Connoisseur. When his gifted contemporary Protogenes
+was unappreciated by his own countrymen in Rhodes, Apelles sailed to visit him. Finding
+Protogenes absent from his studio, Apelles painted a single, impossibly fine colored line across
+a large panel; upon returning, Protogenes immediately recognized Apelles' hand via this
+non-verbal peritextual signature and drew an even finer line in another color directly over the
+first, prompting Apelles to return and split the lines a third time. Furthermore, Pliny notes
+(XXXV.88, 81) that Apelles single-handedly established Protogenes' reputation by buying up his
+rival's canvases and spreading the rumor that he intended to sell them as his own. Centuries
+before the modern gallery system, Pliny's meta-discourse already operated on Bourdieu's core
+mechanism: raw painterly skill remained socially invisible until consecrated by a "creator of the
+creator".
+### The Medieval Scriptorium and Abbey: The Exegetical Monk and the Anagogical Prelate
+During the Middle Ages, classical humanism gave way to a Christian cosmological order in
+which painters, metalworkers, and sculptors operated largely as anonymous artisans within
+monastic workshops or urban guilds. Yet medieval art creation was accompanied by a
+sophisticated dual meta-discourse that divided along institutional lines: the practical-theological
+craft manual (schedula) written from within the workshop, and the liturgical-anagogical apology
+written by the ecclesiastical patron.
+The pinnacle of the workshop treatise is the twelfth-century De diversis artibus (On Diverse
+Arts, or Schedula diversarum artium), written in the voice of Theophilus Presbyter, a
+pseudonym widely associated with the Benedictine monk and master metalworker Roger of
+Helmarshausen (creator of the portable altars of Paderborn and Stavelot and the Enger Cross,
+active c. 1100–1125). Frequently bound in medieval manuscripts directly alongside Vitruvius's
+De architectura, and drawing on didactic traditions of agriculture and medicine, Theophilus's
+treatise is far more than a secular recipe book; as Heidi C. Gearhart's scholarship
+demonstrates, he constructs the First Persona of the Humble Monastic Pedagogue and
+Exegetical Craftsman. Across his three books and their theological prologues, Theophilus maps
+the empirical transformation of earthly matter onto an eschatological trajectory structured by the
+gifts of the Holy Spirit. Book One (on painting) is grounded in Humility and Fear of the Lord,
+instructing the artisan to labor without ostentation. Book Two (on stained glass) invokes
+Fortitude, Counsel, and Understanding, detailing the arduous physical labor required to maintain
+sustainably hot furnaces fueled by copious beechwood, fashion brushes from the hair of a
+badger, mule, cat, or donkey, and fix pigments onto glass using urine or wine. Book Three (on
+liturgical metalwork) culminates in Wisdom and Perfection, guiding the goldsmith in crafting
+chalices, censers, and crosses that manifest the triumph of the Church and build the walls of the
+Heavenly Jerusalem on earth. For Theophilus, manual craft is an exegetical discipline that
+sanctifies both material nature and the monastic laborer.
+If Theophilus speaks as the sanctifying hand, Abbot Suger of Saint-Denis (d. 1151) speaks as
+the Ecclesiastical Impresario and Anagogical Visionary. Defending his lavish architectural and
+decorative reconstruction of the Royal Abbey of Saint-Denis (c. 1140–1144) by calling on glass
+painters and goldsmiths from several regions, Suger composed treatises that shifted the
+meta-discourse from how art is fabricated to how material splendor acts upon the beholder's
+soul. Gazing upon the bejeweled altar cross of St. Eligius and the translucent "anagogical
+window" in the Saint-Denis chevet, Suger describes being transported in an "anagogical
+manner" (anagogicus mos)—an upward-leading spiritual ascent—two decades before Richard
+of Saint-Victor articulated his formal taxonomy of mystical vision. Suger writes of inhabiting a
+"strange region of the universe" (extranea orbis terrarum plaga), a liminal threshold suspended
+"between the slime of the earth and the purity of heaven" (terrarum faece ... coeli puritate).
+While Erwin Panofsky popularized a direct link between Suger's metaphysics of light and the
+theology of Pseudo-Dionysius the Areopagite, recent scholarship by Andreas Speer and
+Stephen Murray has disproven this direct dependency, situating Suger instead within a broader
+medieval way of seeing that bridges the physical eye and the "mind's eye". By framing stained
+glass and gold metalwork as ontological conduits to the divine, Suger legitimized institutional
+expenditure and established the Prelate-Patron as the supreme conceptual author of the sacred
+environment.
+
+The Renaissance: Humanist Treatises,
+Historiographical Myth-Making, and the Alter Deus
+Between the late fourteenth and mid-sixteenth centuries, the social and discursive architecture
+of Western art underwent a structural revolution. In the Middle Ages, painters and sculptors
+were legally and socially bound to guilds alongside manual tradesmen such as carpenters and
+metalworkers, their output valued for functional utility rather than personal expression. The
+Renaissance overturned this hierarchy by mobilizing three interlocking meta-discursive
+forms—the transitional workshop handbook, the humanist theoretical treatise, and the collective
+artist biography—which progressively transformed the artist's First Persona from a pious guild
+craftsman into a learned intellectual (pictor doctus), a melancholic visionary, and ultimately a
+divine autonomous genius (alter deus and il divino).
+
+From Guild Lineage to Theoretical Demiurge: Cennini, Alberti, and
+Ficino
+The threshold of this transition is captured in Cennino Cennini's Il libro dell'arte (The
+Craftsman's Handbook), composed around 1390 in Padua, where it absorbed Venetian dialect
+terms and was dedicated to St. Anthony of Padua among other saints. Surviving in three
+manuscript copies and referenced by Giorgio Vasari into the seventeenth century before its
+early nineteenth-century rediscovery stimulated a tempera revival among painters such as
+Birmingham artist Joseph Southall (1861–1944), Cennini's text bridges two worlds. While
+preserving the medieval recipe-book structure, Cennini introduces a new genealogical
+self-consciousness by tracing his artistic lineage back to Giotto, positioning the craftsman as an
+heir to an evolving stylistic tradition.
+Four decades later, Leon Battista Alberti severed the link to the medieval guild manual entirely
+in his treatise De pictura (On Painting, 1435/1436), alongside his influential treatises on
+sculpture, architecture, and literature. A quintessential humanist scholar, poet, philosopher, and
+architect who designed landmark structures for the Rucellai family in Florence and Rimini,
+Alberti constructed the First Persona of the Learned Theorist-Practitioner (Pictor Doctus).
+Insisting that painting and sculpture required rigorous theoretical reasoning and mastery of
+geometry, anatomy, philosophy, and history, Alberti campaigned to elevate the visual arts from
+manual trades to the level of the liberal arts. Crucially, as early as 1436 in On Painting, Alberti
+suggested that through the mathematical mastery of optical illusion and design, the artist may
+well consider himself, as it were, "another god"—an alter deus.
+Shortly thereafter, Florentine Neoplatonism supplied the psychological interiority for this
+demiurgic persona. Through his philosophical writings, Marsilio Ficino forged a potent alliance
+between Platonic "madness" (furor) and Aristotelian "melancholy," demonstrating how Plato and
+Aristotle were in agreement regarding the creative soul. Previously reserved for philosophers
+and poets, this "Born Under Saturn" persona was rapidly assimilated by Renaissance visual
+artists from Botticelli to Michelangelo: solitary brooding, emotional volatility, and refusal to abide
+by mercantile workshop routines were re-coded in the meta-discourse as essential, symptomatic
+proof of transcendent creative genius.
+
+Giorgio Vasari and the Teleological Engine of Art History
+The institutionalization of these personas culminated in Giorgio Vasari's Le Vite de' più
+eccellenti pittori, scultori, e architettori (Lives of the Most Excellent Painters, Sculptors, and
+Architects, 1550/1568). Already a renowned painter and architect, Vasari had begun collecting
+the drawings of early painters in his youth to learn through imitation, and in 1546 the humanist
+historian Paolo Giovio strongly encouraged him to turn his lifelong "notes and memoranda" into
+a comprehensive historical treatise. Collaborating with contemporary humanists such as the
+historian Adriani and the philologist and grammarian Borghini, Vasari emerged as the founder of
+the discipline of art history, casting himself in the First Persona of the Artist-Historiographer and
+Connoisseur-Arbiter.
+Vasari's Vite operates as a dual-layered meta-discursive machine composed of four theoretical
+prefaces (proemi—a general prolegomenon on technique followed by three historical essays
+preceding the biographical sections) and individual artist biographies. In the proemi, Vasari
+formulates a cyclical, organic scheme of historical progression governed by the laws of nature:
+the revival of true art in Tuscany from its origins in disegno through Cimabue and Giotto; its
+steady maturation under Ghiberti, Brunelleschi, and Donatello; and its triumphant culmination in
+Leonardo da Vinci, Raphael, and Michelangelo, whom Vasari designates as godly (divini)
+because they surpassed both nature and classical antiquity. In the biographies, which he frames
+as "the true mirror of human life," Vasari echoed Ficino's alliance of Platonic madness and
+Aristotelian melancholy to portray artists as heroic figures driven by inner compulsion rather
+than external patronage demands. His vivid myth-making anecdotes—such as Michelangelo
+boldly telling Pope Julius II that the Sistine Chapel ceiling would be finished only "when it
+satisfies me as an artist"—cemented the modern persona of the autonomous creator.
+Remarkably, Vasari recognized that written meta-discourse could eclipse artistic execution itself.
+In his biography of Leon Battista Alberti, Vasari observes that while perfection requires uniting
+theory and practice in one person, Alberti's theoretical writings possessed such authority that "it
+is commonly supposed that he surpassed all those who were actually his superiors in art. Thus
+it is clear from experience that, with respect to fame and name, writings enjoy the greatest
+power and vitality, for books easily penetrate" everywhere. At the same time, Vasari exposed the
+acute socioeconomic contradiction beneath his own rhetoric of divine genius: despite the rise of
+court academies and individual stylistic fame, he lamented in his introductions that if
+contemporary artists were justly rewarded they would surpass the ancient world, whereas in
+reality "the artist today struggles to ward off famine rather than to win fame, and this crushes
+and buries his talent and obscures his name".
+
+The Seventeenth and Eighteenth Centuries:
+Quantitative Connoisseurship, Enlightenment Salons,
+and Transcendental Genius
+By the late seventeenth and eighteenth centuries, the institutionalization of state academies
+(most notably the French Académie Royale de Peinture et de Sculpture), the expansion of an
+international art market fueled by the Grand Tour, and the birth of biennial public exhibitions
+fractured art meta-discourse into four distinct regimes, each generating a specialized persona.
+
+Roger de Piles and the Quantitative Balance des Peintres
+Within the French Académie Royale, orthodox meta-discourse was dominated by Poussinisme,
+a dogmatic insistence that rectilinear drawing (disegno) and classical contour constituted the
+rational foundation of art, while color was merely a secondary, sensual ornament. Challenging
+the establishment of his time—at a historical moment when intellectual nonconformity in France
+carried severe risks—the theorist and critic Roger de Piles championed Rubénisme (modeled
+on Peter Paul Rubens), declaring in his Dialogue sur le coloris (1673) that "there is no painting if
+color does not go with drawing" and that "color is the soul of painting".
+In 1708, De Piles published the most audacious meta-discursive experiment of the early modern
+era: the Balance des peintres (The Balance of Painters). Adopting the First Persona of the
+Taxonomic Quantifier and Playful Arbiter, De Piles decomposed artistic value into four
+fundamental characteristics—Composition, Drawing, Color, and Expression—and graded 56
+canonical painters from his own and previous eras on a numerical scale from 0 to 20 for each
+attribute. Although De Piles claimed defensively that the Balance "was written for my own
+pleasure, rather than to attract others to my view," his contemporaries took it very seriously as a
+"clever way to characterize genius," while later traditional art historians such as Julius von
+Schlosser despised its quantitative reductionism.
+Painter /        Composition      Drawing (0–20) Color (0–20)        Expression      Aggregate
+Analytical       (0–20)                                              (0–20)          Score /
+Metric                                                                               Long-Term
+                                                                                     Econometric
+                                                                                     Impact
+Rembrandt        15               6                17                12              50 (Unweighted
+van Rijn                                                                             Sum) / 62
+                                                                                     (Drawing
+                                                                                     weighted
+                                                                                     \beta_2 = 3)
+Michelangelo —                    —                —                 —               37 (Unweighted
+Buonarroti                                                                           Sum across all
+                                                                                     four
+                                                                                     dimensions)
+Leonardo da —                     —                —                 14              High
+Vinci                                                                                expressive
+                                                                                     benchmark in
+                                                                                     De Piles' matrix
+Titian (Tiziano —                 —                —                 6               Penalized
+Vecellio)                                                                            alongside
+                                                                                     Tintoretto in
+                                                                                     Venetian
+                                                                                     expression
+Giorgione        —                —                —                 4               Penalized in
+                                                                                     Venetian
+                                                                                     expression
+Giovanni         —                —                —                 0               Extreme
+Bellini                                                                              Venetian
+                                                                                     expression
+                                                                                     penalty
+Impact of +1 —                    —                +1 Unit           —               +7.4 lines in
+Unit in Color                                                                        De Piles'
+Score                                                                                Abrégé; +64.6
+                                                                                     lines in
+Painter /       Composition      Drawing (0–20) Color (0–20)       Expression         Aggregate
+Analytical      (0–20)                                             (0–20)             Score /
+Metric                                                                                Long-Term
+                                                                                      Econometric
+                                                                                      Impact
+                                                                                      Turner's
+                                                                                      Dictionary;
+                                                                                      +11.9% in
+                                                                                      modern auction
+                                                                                      prices
+A close inspection of De Piles' matrix reveals how quantitative meta-discourse operates as an
+ideological weapon. Although De Piles was careful not to explicitly sum the four grades himself,
+an unweighted summation yields a total score of 50 for Rembrandt (15 in Composition, 6 in
+Drawing, 17 in Color, and 12 in Expression) compared to only 37 for academic idol
+Michelangelo—a radical inversion of Renaissance disegno orthodoxy that persists even if
+Drawing is weighted three times as heavily as the other attributes (\beta_2 = 3, yielding 62 for
+Rembrandt). Simultaneously, De Piles' personal biases surface in his disparagement of early
+Venetian expression: while awarding Leonardo da Vinci 14 points in Expression, he assigned
+Giovanni Bellini a zero in Expression, alongside 4 for Giorgione and 6 for Titian.
+Remarkably, econometric research by Victor Ginsburgh and Sheila Weyers demonstrates that
+De Piles' Balance anticipated the philosophical "test of time" far better than the orthodox
+Académie under André Félibien. While the space De Piles devoted to individual artists in his
+own biographical Abrégé correlated only mildly with his Balance scores (yielding 7.4 additional
+lines per unit increase in score, with all four characteristics carrying roughly equal weight), his
+Color ratings strongly predict canonical survival and market valuation centuries later. Each
+additional point De Piles awarded in Color corresponds to an increase of 64.6 lines in Turner's
+Dictionary of Art and an 11.9% premium in modern auction prices, whereas his ratings for
+Drawing carry a statistical coefficient not significantly different from zero. By codifying Color as
+an independent, quantifiable metric, De Piles aligned critical discourse with the tastes of Louis
+XIV's court and prefigured the sensory turn of modern art markets.
+
+Jonathan Richardson and the Empirical "Science of a Connoisseur"
+Eleven years after De Piles' Balance, the English portraitist and writer Jonathan Richardson
+(Senior, later joined by his son Jonathan Richardson Junior, who corrected and prepared his
+father's works for the press) became the first person to develop a systematic method of art
+criticism in English with his Two Discourses: I. An Essay on the Whole Art of Criticism as It
+Relates to Painting; II. An Argument in Behalf of the Science of a Connoisseur (1719),
+followed by their An Account of Some of the Statues, Bas-reliefs, Drawings and Pictures in Italy,
+etc. with Remarks (1722).
+Addressing the rising British gentry and merchant elite embarking on the Grand Tour,
+Richardson constructed the First Persona of the Rational Gentleman-Connoisseur and
+projected a corresponding Second Persona: the empirically trained, civic-minded collector.
+Expressly avoiding mere mechanical cataloging, Richardson argued that attribution and quality
+assessment constituted a methodical "science" possessing "dignity, certainty, pleasure, and
+advantage". Crucially, Richardson's analytical procedure depended upon maintaining a strict
+cognitive barrier between the spectator and the painting—a cool, judicial detachment that
+nineteenth-century Romantic critics like John Ruskin would later abandon in their defense of
+J.M.W. Turner and the Pre-Raphaelite Brotherhood.
+
+Denis Diderot and the Embodied, Polyphonic Salon
+If Richardson erected a judicial barrier between critic and canvas, Denis Diderot demolished it.
+Beginning in 1759 and continuing until 1781, Diderot reviewed the biennial exhibitions of the
+Paris Académie (the Salons) for his friend Friedrich Melchior, Baron von Grimm's manuscript
+newsletter, the Correspondance littéraire. Having spent 27 years building the 72,000-article
+Encyclopédie—where he personally visited workshops to document manual trades and used
+subversive cross-references (such as sending readers from the polite article "Cordelier" to
+"Capuchon" to mock monks, or hiding a defense of free speech under the Roman god "Aius
+Locutius") to evade royal censors—Diderot brought a materialist, sensory, and dialogic
+sensibility to art criticism.
+Realizing that "the looser the rules, the more relative the standards by which art could be
+judged," Diderot recognized that unconventional art required an unconventional criticism to give
+it credibility and a raison d'être. In his Salons (especially from the pivotal 1765 installment
+onward), Diderot invented the First Persona of the Embodied, Polyphonic Philosophe and
+Sentimental Dramatist. As Jean Starobinski noted, Diderot was a creator of literary hybrids who
+favored satire and dialogue to welcome heterogeneity. In his Salons, Diderot relishes dispute:
+he argues for the renewal of art as a moral authority, quarrels with artists while lending them
+audible voices within his text that stand in contrast to his own opinion, banters directly with
+Grimm ("Can you see how beautiful she is! How interesting she is! I hate to trouble her"), and
+continually argues with himself.
+Furthermore, Diderot replaces analytical detachment with diegetic immersion, staging himself as
+an embodied viewer in active sensory and cognitive exchange with the canvas. In his celebrated
+analysis of Jean-Baptiste Greuze's Girl Weeping Over Her Dead Bird (1765), Diderot becomes
+an "intoxicated critic" who steps across the frame to introduce an entire elegy of his own
+invention. First marveling at the painterly execution ("Oh! what a lovely hand, cries the
+intoxicated critic as he gazes at her; what a lovely hand! what lovely arms! Observe the
+accuracy of the detail of those fingers, and those dimples, and that soft flesh, and the reddish
+tint of the finger tips caused by the pressure of the head"), Diderot then draws near and speaks
+directly to the painted figure to lift her veil of mystery: "Why, my dear, your grief is very great,
+very profound. What means this dreamy, melancholy expression? What! all for a bird? You are
+not weeping, you are in deep affliction; and your affliction is accompanied by thought. Come, my
+dear, open your heart to me; tell me the truth: is it really this bird's death that has withdrawn you
+so entirely and so sadly into yourself?". By transfixing the visual idyll with his own narrative
+elegy—while later arguing in his theatrical dialogue Paradoxe sur le comédien (1770s/1830) that
+a great performer must rely on cool technical artifice rather than raw emotional
+identification—Diderot transformed art criticism into an autonomous literary performance that
+directly prefigured Marcel Proust's narrator contemplating the paintings of Elstir in À la
+recherche du temps perdu.
+
+Immanuel Kant and the Transcendental Oracle of Nature
+At the close of the eighteenth century, Immanuel Kant's Critique of Judgment (Kritik der
+Urteilskraft, 1790, §§ 43–50) synthesized Enlightenment aesthetics and laid the philosophical
+cornerstone for Romantic and Modernist meta-discourse. In § 43, Kant established a rigorous
+three-part demarcation of art in general. First, art is distinguished from nature as rational making
+through freedom (facere), which produces a work (opus), whereas nature operates through
+mechanical or instinctual acting (agere), which yields an effect (effectus, such as bees
+constructing honeycomb cells). Second, art as practical human skill is distinguished from
+science as theoretical knowledge; possessing complete theoretical knowledge does not
+automatically confer the practical skill to make an object, just as Petrus Camper could describe
+with scientific exactitude how the best shoe must be made without being able to fashion a shoe
+himself. Third, "free" (fine) art is distinguished from mercenary industrial handicraft: free art
+succeeds only as play—an occupation agreeable on its own account—whereas handicraft is
+labor or drudgery attractive only for its external pay, though Kant cautions against newer
+proto-Romantic leaders who believe free art is promoted by sweeping away all compulsory
+"mechanism", without which the free spirit of art becomes "bodyless and evanescent".
+Having isolated fine art, Kant confronted a profound philosophical problem: pure judgments of
+taste rest on appreciating an object's "purposiveness without a purpose" (devoid of any
+determinate concept), yet every artwork is intentionally produced. To resolve this tension, Kant
+codified the persona of the Innate Rule-Giving Genius in § 46:
+"Genius is the talent (natural endowment) which gives the rule to art. Since talent, as an innate
+productive faculty of the artist, belongs itself to nature, we may express the matter thus: Genius
+is the innate mental disposition (ingenium) through which nature gives the rule to art."
+Through this transcendental formulation, Kant fundamentally restructured the relationship
+between the artist and meta-discourse. Because beautiful art cannot be derived from
+determinate rules or concepts, genius is a talent for producing that for which no determinate rule
+can be given; its primary property is exemplary originality, creating models that establish schools
+for other "good minds" while ignoring classical rules. Crucially, Kant stipulates that "Genius itself
+cannot describe or indicate scientifically how it brings about its products, and it is rather nature
+[through the talent of the artist] that gives the rule to art", prescribing rules not to science but
+exclusively to fine art. Because it is "nature in the subject" operating from pre-conceptual,
+noumenal intuition rather than conscious procedural design, the artist-genius is philosophically
+absolved—and barred—from explaining their own work. This Kantian persona of the mute,
+nature-favored oracle dominated nineteenth-century Romanticism, until Friedrich Nietzsche
+subjected it to a piercing sociological critique: Nietzsche argued that the cult of innate,
+unlearnable genius is a self-serving myth embraced by the audience (the Second Persona)
+because it functions to allow ordinary people "to be content with a life of mediocrity and soothed
+in our inability to work toward some lofty objective," attributing great works to magical natural
+gifts rather than relentless discipline, perseverance, and mastery.
+
+The Nineteenth Century: Modernity, the Flâneur, and
+the Critic as Autonomous Creator
+In the nineteenth century, the rise of industrial capitalism, metropolitan crowds, and mass print
+journalism shattered the homogeneity of the aristocratic patron class. Facing an expanding
+bourgeois public and an entrenched academic Salon system, art meta-discourse shifted from
+Enlightenment consensus-building to partisan ideological warfare and aestheticist self-assertion.
+
+Charles Baudelaire: Partisan Criticism and the Triad of Modern
+Personas
+Writing in his Salon de 1846 (in the programmatic opening section "À quoi bon la critique?"), the
+poet-critic Charles Baudelaire issued the foundational manifesto for modern partisan criticism:
+"Pour être juste, c'est-à-dire pour avoir sa raison d'être, la critique doit être partiale, passionnée,
+politique, c'est-à-dire faite à un point de vue exclusif, mais au point de vue qui ouvre le plus
+d'horizons." ("To be just, that is to say, to justify its existence, criticism must be partial,
+passionate, and political, that is to say, written from an exclusive point of view, but from a point
+of view that opens up the widest horizons.")
+Scorning the "reasonable and sublime" centrist critics who pedantically advised colorists to
+study drawing and draughtsmen to study color—and insisting that technical studio procedures
+are learned in the atelier while the public cares only for the result—Baudelaire championed an
+imaginative criticism that translates the aesthetic force of artists like Eugène Delacroix or Edgar
+Allan Poe into a poetic equivalent.
+In his seminal essay The Painter of Modern Life (Le Peintre de la vie moderne, written
+1859–1860 and published in 1863), Baudelaire reformulated both the ontology of art and the
+persona of its creator-observer. Rejecting the academic dogma of a unique and absolute
+classical beauty—noting that a contemporary painter who depicts a modern courtesan by taking
+"inspiration" from Titian or Raphael will produce only a "false, ambiguous and obscure"
+work—Baudelaire established a rational and historical theory of dual beauty. In the most famous
+sentence of the essay, he declared: "Modernity is the transitory, the fleeting [le fugitif], the
+contingent, half of art [la moitié de l'art], the other half of which is the eternal and the
+unchangeable".
+To capture this fugitive modernity, Baudelaire centered his essay not on a consecrated
+academic master, but on the rapid, on-the-spot sketches of contemporary manners, fashion,
+and war produced for mass-circulation periodicals like the Illustrated London News by
+Constantin Guys, whom Baudelaire masks under the cipher "Monsieur G.". As critical
+scholarship observes, Guys' deliberate anonymity—what Baudelaire calls the "fiction" of his
+subject's "incognito"—allowed Baudelaire to use art criticism for his own ends, constructing a
+composite Triad of Modern Personas that merged the artist and the critic into a single protean
+consciousness. First, Monsieur G. is the Flâneur and Man of Crowds: a passionate spectator for
+whom the urban crowd is his natural element, just as air is to birds and water to fishes. Rejoicing
+in his incognito like a disguised prince, the flâneur sets up house in the heart of the multitude
+amid the ebb and flow of movement, acting as "a mirror as vast as the crowd itself" and "a
+kaleidoscope gifted with consciousness," an "I with an insatiable appetite for the 'non-I'" who
+distills the eternal from the transitory. Second, he is the Man-Child or Convalescent: recently
+returned from the shadow of death, he breathes in all the odors and essences of life with
+rapture, driven by a curiosity that has become a fatal, irresistible passion and possessing "the
+genius of childhood—a genius for which no aspect of life has become stale". Third, he intersects
+with the Dandy, who possesses a quintessence of character and a subtle understanding of the
+moral mechanism of the world, yet aspires to aristocratic insensitivity and self-mastery in
+opposition to bourgeois vulgarity.
+
+Oscar Wilde and the Sovereign Critic-as-Artist
+If Baudelaire elevated the poet-critic to parity with the painter, Oscar Wilde inverted the
+hierarchy entirely, crowning the critic as the supreme creative artist. In his two-part Platonic
+dialogue "The Critic as Artist: With Some Remarks on the Importance of Doing Nothing
+and Discussing Everything" (originally published in the July and September 1890 issues of
+The Nineteenth Century as "The True Function and Value of Criticism," and substantially revised
+in his 1891 collection Intentions), Wilde staged a philosophical conversation between two
+Aestheticist personas: the leading voice Gilbert and his interlocutor Ernest.
+Speaking through Gilbert—performing the First Persona of the Refined Aesthete and
+Paradoxical Dandy-Critic—Wilde systematically demolished the boundary between art and
+criticism. Against the Romantic and Kantian notion of the artist creating from an unconscious
+outpouring of emotion, Gilbert posits that all fine imaginative work is self-conscious and
+deliberate: "No poet sings because he must. At least, no great poet does. A great poet sings
+because he chooses to sing... There is no fine art without self-consciousness, and
+self-consciousness and the critical spirit are one". While artistic creation is entirely dependent
+upon the working of the critical faculty, criticism itself is both creative and wholly independent of
+the object it criticizes. Just as the work of a poet or sculptor is not judged by low standards of
+imitation or resemblance, criticism is "never trammelled by any shackles of verisimilitude" or
+ignoble considerations of probability. To the critic, the primary artwork—even the dull poems of
+Lewis Morris, the novels of Georges Ohnet, or the plays of Henry Arthur Jones—serves merely
+as raw material or a starting suggestion out of which the critic fashions "a creation within a
+creation" that is flawless in beauty and intellectual subtlety. When Ernest questions this
+autonomy, Gilbert delivers the ultimate Aestheticist credo: "One may appeal from fiction unto
+fact. But from the soul there is no appeal... That is what the highest criticism really is, the record
+of one's own soul. It is more fascinating than history, as it is concerned simply with oneself. It is
+more delightful than philosophy, as its subject is concrete and not abstract, real and not vague".
+With Wilde, the nineteenth-century epitext achieved complete ontological sovereignty over the
+artwork.
+
+The Twentieth Century: Avant-Garde Manifestos,
+Formalist Tribunals, Conceptualism, and the
+Curatorial Turn
+Across the twentieth century, the struggle over aesthetic legitimation intensified into a series of
+institutional coups. Artists, critics, and curators competed to control the paratextual threshold,
+progressively dematerializing the art object until the meta-discourse absorbed the artwork
+altogether.
+
+The Avant-Garde Manifesto and the Militant Insurgent
+Between 1885 and 1915, spanning European modernism's most turbulent decades, the artist
+manifesto emerged as the primary epitextual weapon for legitimizing radical artistic practice.
+Confronting profound social and cultural transformations that alienated the artist from bourgeois
+norms, modernist practitioners used manifesto writing to strip off the robes of office and the
+compliant social persona assigned to them by the middle class. In their place, the manifesto
+constructed the First Persona of the Militant Insurgent and Revolutionary Vanguard. Adopting a
+binary, combative mode of argument that mocked established artistic conventions whose time
+had passed, the manifesto institutionalized an explicitly antagonistic relationship between the
+artist and the bourgeois public (relegated to the Third Persona), while deploying theoretical
+discourse preemptively to dictate how the visual work had to be read.
+
+Mid-Century Critical Hegemony: Greenberg's Tribunal vs.
+Rosenberg's Arena
+As the center of the Western avant-garde shifted to America in the mid-twentieth century, the
+radical abstraction of Abstract Expressionism prompted artists to write criticism defending their
+work and elevated professional New York art critics to unprecedented institutional power.
+Mid-century meta-discourse was defined by the ideological clash between Clement Greenberg
+and Harold Rosenberg (alongside Lawrence Alloway, who introduced "other criteria" grounded
+in mass culture and information systems). Greenberg assumed the First Persona of the Stern
+Formalist Arbiter, evaluating the finished artwork as an autonomous, medium-specific physical
+object governed by flatness and optical purity. Conversely, Rosenberg forged the persona of the
+Existential Witness, famously defining "Action Painting" not as the production of a static object,
+but as a dramatic performance, gesture, and existential event in which the canvas serves as an
+arena in which to act.
+Critical Persona &       Philosophical Lineage Ontological Definition of Role of the Critic in
+Theorist                                          the Artwork             Meta-Discourse
+The Formalist            Kantian self-criticism & An autonomous,          Objective historical
+Tribunal (Clement        positivist opticality.   medium-specific         arbiter who purges
+Greenberg)                                        physical object defined literary narrative,
+                                                  by flatness, color, and politics, and artist
+                                                  the delimitation of the biography to render a
+                                                  support.                pure formalist verdict
+                                                                          on the finished work.
+The Existential          Existential              "Action Painting": The Empathetic dramatist
+Witness (Harold          phenomenology &          canvas is not a space and chronicler of the
+Rosenberg)               dramatic action theory. to reproduce an object, creative gesture who
+                                                  but an arena for        privileges the artist's
+                                                  performance, gesture, act of creation over
+                                                  and the event of        static formalist
+                                                  art-making.             opticality.
+Conceptual Art and the Liquidation of the Critic: Joseph Kosuth
+By the late 1960s, a new generation of artists recognized that Greenbergian formalism had
+reduced the practitioner to a mute producer of optical objects awaiting the critic's consecration.
+Reaching back to Marcel Duchamp's 1917 readymade Fountain—which demonstrated that an
+artist could create art merely by nominating an industrial object, signing it with a peritextual
+pseudonym, and placing it within an institutional context—American artist Joseph Kosuth
+became the father of articulated Conceptualism.
+In 1965, Kosuth created his foundational piece One and Three Chairs (a structure he
+subsequently reprised with a shovel, a mirror, a hammer, and a saw), presenting a chair as one
+concept across three entities: a physical chair, a photograph of that chair installed in the room,
+and an enlarged photostat of a dictionary definition of the word "chair". Crucially, every time the
+work is exhibited in a new location, the physical chair and its accompanying photograph change,
+while only the dictionary definition remains unchanged. Four years later, in his landmark
+1969 essay "Art after Philosophy" (collected in Art after Philosophy and After: Collected
+Writings, 1966–1990), Kosuth articulated the theoretical framework that One and Three Chairs
+materialized. By defining Conceptual Art as an analytic proposition in which the linguistic and
+philosophical inquiry into the nature of art is the artwork itself, Kosuth assumed the First
+Persona of the Artist-Philosopher and Analytic Linguist, effectively liquidating the role of the
+traditional formalist critic.
+
+The Curatorial Turn and the Créateur du Créateur
+Although Conceptual Art bypassed the formalist critic, the late-twentieth-century art world
+quickly generated a new institutional sovereign: the Independent Curator. As theorized by Paul
+O'Neill in "The Curatorial Turn: From Practice to Discourse" (and explored by Hal Foster
+and Hans Ulrich Obrist), the late 1980s and 1990s witnessed a structural shift in which
+individual moments of exhibition practice translated into a hierarchical "common discourse" of
+curating, elevating curating into a distinct "medium of artistic practice". Through international
+biennials and thematic exhibitions, the curator assumed the First Persona of the Meta-Artist and
+Discursive Auteur, acting as Bourdieu's supreme "creator of the creator"—even as O'Neill warns
+that, instead of preserving curating as one of the rare intellectual positions in the processes of
+art circulation, market pressures threaten to reduce curators to mere administrative brokers.
+
+The Contemporary Era: Video Essays, Algorithmic
+Process Labor, and Post-Human AI Discourse
+In the first quarter of the twenty-first century, the migration of cultural reception onto algorithmic
+digital platforms and the emergence of generative artificial intelligence have transfigured media
+content, discourse, and criticism through an internet-shaped prism. Today, art meta-discourse is
+increasingly governed by three contemporary formations: the YouTube video essay, the
+short-form process video on TikTok and Instagram Reels, and the post-human
+prompt-and-dataset discourse of generative AI.
+
+The YouTube Video Essay and the Parasocial Public Intellectual
+Finding its home on YouTube in the early 2010s through pioneering channels such as Every
+Frame a Painting, The Nerdwriter (created by former MSNBC producer Evan Puschak),
+Wisecrack, Screen Junkies, and Solar Sands, the video essay emerged as a distinct
+multimodal discursive medium. Rather than a recording of a student reading a term paper aloud,
+the video essay blends weeks of complex image editing, audio scoring, and written narration to
+promote creative expression and deep inquiry.
+Within this digital ecosystem, creators have forged distinct First Personas to mediate art and
+culture for millions of subscribers. Commanding 3.15 million subscribers with a series that "puts
+ideas to work," Evan Puschak (The Nerdwriter) adopts the persona of the Passionate,
+Polymathic Inquirer. Explicitly rejecting academic dogmatism—stating that "The essay is not a
+treatise. It's not a term paper. It's not something systematically covering everything about a
+subject. It is an inquiry"—Puschak frames his videos on Shakespeare, Tarkovsky, and visual art
+as a personal way of working out what he believes. In his nine-minute video essay "Leonardo da
+Vinci's Best Painting (Is Not The Mona Lisa)," Puschak analyzes composition, form, and
+technique to argue that Leonardo's The Virgin and Child with St. Anne (1501–1519) surpasses
+the Mona Lisa by blending personal mastery of mathematics and science with spiritual
+representation.
+Alongside Puschak, creators like Solar Sands adopt the persona of the Archival Digital
+Investigator, lending narrative gravitas to niche art-historical inquiries such as 22-minute
+explorations of the "weird" titles of paintings or "The World's Most 'Wanted' Paintings" (631,000
+views)—though Reddit discussions on r/MauLer and r/youtubedrama reveal how quickly digital
+audiences turn on video essayists when they venture into surface-level pop-culture critiques
+beyond their expertise or breach parasocial boundaries in their comment sections. Meanwhile,
+emerging smaller creators like Art Chad (10.1K subscribers) deploy a fast-paced, comedic
+Gen-Z Ironist persona ("videos about art, philosophy, and [Gen-Z] culture as an attempt to find
+common ground before the world ends"), arguing in "3 Reasons Why Public Art is so Mid" that
+contemporary civic commissions—such as the January 2023 Boston monument The Embrace
+commemorating Martin Luther King Jr. and Coretta Scott King—fail because they are borne out
+of municipal economic necessity, designed by insular art experts detached from the public, and
+devoid of authenticity because "making art is an inherently selfish act". As critical analysis by
+Noah Solomons (March 2026) observes, while video essays have made art criticism far more
+accessible and creative, the structural mechanics of the attention economy increasingly push
+the medium toward formulaic oversaturation and iterative excess.
+
+Short-Form Process Videos: The Greenbergian Grid vs. the
+Rosenbergian Reel
+Parallel to the critical video essay, practicing visual artists on social media must navigate a
+bifurcated platform architecture that directly resurrects the mid-twentieth-century debate
+between Clement Greenberg and Harold Rosenberg. As contemporary art criticism notes, the
+static, grid-based layout of classic Instagram is an inherently Greenbergian platform: it
+forces a formalist judgment of the final object, reduced to a glossy, finished JPEG. By contrast,
+TikTok and Instagram Reels are Rosenbergian platforms: dominated by short-form "process
+videos" and "art reveals" that film the artist's hand beside the canvas, they celebrate the
+performance, the gesture, and the temporal event of art-making.
+Yet a closer inspection of digital artist training curricula—such as Maria Lia Malandrino's
+Skillshare course Reels and TikTok for Digital Artists: Learn how to Boost your Art—reveals that
+this digital Rosenbergianism is a highly calculated simulation of process. To maximize
+algorithmic reach across Instagram, TikTok, and YouTube Shorts, artists are taught to follow a
+seven-step workflow that begins not with visual inspiration, but with scouting trending audio
+tracks from fashion, beauty, travel, and lifestyle communities, matching visual cuts to the
+specific beats, melody changes, and voiceover pauses of the sound. Most tellingly, rather than
+filming genuine, unpredictable creative struggle in real time, Malandrino advises artists to finish
+the artwork first and "backtrack" their steps during the shoot: "You can either create an artwork
+as you're shooting: Or use a finished one and 'backtrack' your steps during the shot: I prefer the
+second option: you have more control and are more relaxed during the shot. Also, you can
+shoot less footage because you're only shooting for the correct amount of time that you need".
+Hitting record for only a few seconds at each stage while changing camera angles, settings, and
+even clothing or accessories between takes to keep the reel visually varied, the contemporary
+digital artist inhabits the First Persona of the Aesthetic Laborer and Performative
+Process-Influencer, often projecting a romantic "outsider" persona while staging creation in
+reverse for the algorithm.
+Generative AI and the Post-Human Object-Object Relation
+The most radical rupture in the history of art meta-discourse is the rise of generative artificial
+intelligence, including diffusion models like Stable Diffusion (explored in collaborative human-AI
+projects such as "A girl who talks to AI") and temporal video generation models trained on vast
+datasets of movies and YouTube videos. Operating under the computational governing logic of
+"Garbage In, Garbage Out" (GIGO), generative AI exposes profound tensions surrounding
+creativity, authorship, and labor. As Dave Beech and Jens Schröter (2024) state in "A
+Conversation on Art and Labour," AI replaces the historical "subject-object relation of artistic
+production with an object-object relation". Simultaneously, the critical judgment of art is
+undergoing automation: as Joanna Zylinska documents in "AI Art: Machine Visions and Warped
+Dreams" (2020), Huawei's photography competition was adjudicated by two judges—human
+photographer Alex Lambrechts and a Huawei P20 Pro smartphone equipped with a "Master AI"
+programmed to evaluate thousands of images and determine optimum camera zoom and
+composition. As HMVC Gallery director Vincent Chang observes, AI systematically automates
+whichever creative processes human culture no longer chooses to value as human input.
+When AI-generated pieces such as Théâtre D'opéra Spatial began winning human art
+competitions, practitioners turned to adversarial meta-discourse to expose the crisis. German
+artist Boris Eldagsen submitted his AI-generated image The Electrician to the Sony World
+Photography Awards; when the competition judges awarded it first prize—admitting they could
+not tell the extent of AI interaction in the creation of the photograph—Eldagsen publicly forfeited
+the prize in protest to demand active institutional measures protecting human creativity. In this
+post-human regime, the human operator shifts into the First Persona of the Prompt Engineer or
+Adversarial Provocateur, while the millions of uncredited human artists whose scraped works
+populate AI training datasets are consigned to Wander's Third Persona—structurally essential to
+the machine's output, yet negated and silenced within the object-object circuit.
+
+Synthesis and Structural Conclusions
+Tracing the trajectory of art meta-discourse from classical antiquity to the contemporary
+algorithmic age reveals three overarching structural laws that govern how culture produces,
+legitimizes, and consumes the category of "art."
+
+The Inverse Law of Materiality and Meta-Discourse
+Across the past two and a half millennia, the volume, velocity, and ontological authority of art
+meta-discourse have expanded in inverse proportion to the physical craft requirements of the art
+object itself. When artistic production was anchored in arduous material transformation—such
+as Theophilus Presbyter's twelfth-century beechwood furnaces and metalwork or Cennino
+Cennini's Quattrocento tempera panels—meta-discourse remained largely technical,
+pedagogical, and exegetical. However, as the artwork progressively dematerialized across the
+modern and contemporary eras—moving from Impressionist oil sketches to Duchamp's
+readymade urinal, Joseph Kosuth's photostated dictionary definitions, and contemporary text
+prompts fed into diffusion models—the surrounding epitext expanded to bear the entire burden
+of Pierre Bourdieu's "production of belief". When anyone can purchase a chair or type a prompt,
+it is exclusively the meta-discourse that consecrates the act as art.
+The Dialectical Migration of the "Creator of the Creator"
+Sovereign authority within Genette's paratextual threshold has never remained static; rather, it
+has migrated dialectically between practitioners and external mediators, continually redefining
+who occupies the role of Bourdieu's "creator of the creator". In the Renaissance, Alberti and
+Vasari wrested discursive authority away from medieval ecclesiastical patrons (such as Abbot
+Suger) and guild regulations, using theoretical treatises and heroic biographies to constitute the
+artist as an autonomous intellectual and divine genius. In the eighteenth and nineteenth
+centuries, the rise of public Salons and print journalism transferred consecrating power to the
+Connoisseur (Richardson), the Quantitative Arbiter (De Piles), the Embodied Philosophe
+(Diderot), the Flâneur Poet-Critic (Baudelaire), and ultimately Wilde's Critic-as-Artist, who
+reduced the primary artwork to mere raw material for the critic's soul. In the twentieth century,
+avant-garde manifesto writers and Conceptualists like Kosuth liquidated the formalist critic's
+tribunal by absorbing philosophy directly into the artwork, only to be subsumed in turn by the
+late-twentieth-century Independent Curator, who transformed the exhibition itself into a
+meta-artistic medium.
+
+The Recursive Collapse of Personas in the Algorithmic Present
+Finally, the transition to the contemporary digital and AI ecosystem has fundamentally altered
+Maurice Charland's constitutive rhetoric and the relationship among the First, Second, and Third
+Personas. In classical, Enlightenment, and modernist discourse, the First Persona (whether
+Apelles, Diderot, or Baudelaire) projected a distinct stylistic voice outward to educate, seduce,
+or antagonize the Second Persona (the implied audience). In the twenty-first-century attention
+economy, this directional vector has reversed into a closed cybernetic feedback loop. When a
+digital artist on TikTok or Instagram Reels selects a trending audio track first and "backtracks"
+an already finished painting to simulate a Rosenbergian process event, or when a YouTube
+video essayist calibrates an inquiry to platform retention metrics, the algorithmic Second
+Persona actively scripts the First Persona. Simultaneously, the rise of generative AI and
+automated aesthetic evaluation ("Master AI" judges) threatens to bypass the human First and
+Second Personas altogether—replacing the human subject-object relation with a post-human
+object-object circuit while relegating living human creators to the structural silence of the Third
+Persona. Consequently, the central struggle of contemporary art discourse is no longer how to
+judge the beauty of an object, but how to defend the ontological necessity of human
+intentionality within the threshold of the paratext.
+
+Works cited
+
+1. Iconoclasm: The Breaking and Making of Images 9780773558380,
+https://dokumen.pub/iconoclasm-the-breaking-and-making-of-images-9780773558380.html 2.
+The Cambridge History of Literary Criticism, Volume 9 - epdf.pub,
+https://epdf.pub/the-cambridge-history-of-literary-criticism-volume-9-twentieth-century-historica.h
+tml 3. Ottoman Painting: Reflections of Western Art from ... - dokumen.pub,
+https://dokumen.pub/ottoman-painting-reflections-of-western-art-from-the-ottoman-empire-to-the
+-turkish-republic-9780755610792-9781848852884.html 4. The Aesthetic Turn and the
+Rhetorical Perspective on Argumentation,
+https://static1.squarespace.com/static/6769d17da8dca1383bc07f5e/t/6779bf0c6aa9f702397026
+a8/1736032014282/Greene_The+Aesthetic+Turn+and+the+Rhetorical+Perspective+on+Argum
+entation.pdf 5. On Rhetorical Criticism - Landmark Essays,
+https://api.pageplace.de/preview/DT0400.9781000106848_A40252895/preview-978100010684
+8_A40252895.pdf 6. Bourdieu's Economy of Symbolic Goods | PDF - Scribd,
+https://www.scribd.com/document/66571292/Bourdieu-The-Production-of-Belief 7. Genette -
+Introduction To The Paratext | PDF | Social Science - Scribd,
+https://www.scribd.com/document/727487835/Genette-Introduction-to-the-Paratext 8.
+paratextuality of the author's dedication: peritext vs epitext,
+https://www.researchgate.net/publication/385491778_PARATEXTUALITY_OF_THE_AUTHOR'S
+_DEDICATION_PERITEXT_VS_EPITEXT 9. PARATEXTUALITY OF THE AUTHOR'S
+DEDICATION, https://journals.pnu.if.ua/index.php/folium/article/download/97/95/198 10. Titles
+and Titling of Visual Artworks in Theoretical Discussions ... - JYX,
+https://jyx.jyu.fi/bitstreams/0e088f14-c3e1-4c69-a951-a20013226e5b/download 11. Don't blame
+the video essay | Opinions – The Link,
+https://thelinknewspaper.ca/article/dont-blame-the-video-essay 12. Reels and TikTok for Digital
+Artists: Learn how to Boost your Art,
+https://www.skillshare.com/en/classes/reels-and-tiktok-for-digital-artists-learn-how-to-boost-your-
+art/834507953 13. Introduction to the Paratext - CUNY Academic Commons,
+https://commons.gc.cuny.edu/?get_group_doc=1125/1455382766-Genette_Intro.pdf 14.
+MANIFESTO WRITING AND EUROPEAN MODERNISM 1885–1915,
+https://dokumen.pub/download/legitimizing-the-artist-manifesto-writing-and-european-modernis
+m-1885-1915-9781442621060.html 15. The Comics of Charles Schulz The Good Grief of
+Modern Life - AnyFlip, https://anyflip.com/cisq/ibvq/basic/151-200 16. (PDF) Performing
+calculation in the art market - ResearchGate,
+https://www.researchgate.net/publication/247527688_Performing_calculation_in_the_art_marke
+t 17. Audience Address and Creative Authority in the Era of Smart Fans,
+https://scholarworks.gsu.edu/bitstreams/dd0ac031-272e-4b81-a7a5-94e361c0b641/download
+18. **Aerial criticise, to be useful, must pastor. a unique Junction - ERIC,
+https://files.eric.ed.gov/fulltext/ED079779.pdf 19. The Craft of Research, 2nd edition (Chicago
+Guides to Writing,
+https://is.cuni.cz/studium/predmety/index.php?do=download&did=53831&kod=JMM003 20. The
+Third Persona: How Can the Negated Participate in Discourse?,
+https://lbanister.wordpress.com/2013/02/24/the-third-persona-how-can-the-negated-participate-i
+n-discourse/ 21. Denis Diderot Biography, https://people.brandeis.edu/~teuber/diderotbio.html
+22. 12c. Theophile - de Divers Artibus | PDF - Scribd,
+https://www.scribd.com/document/236012607/12c-Theophile-De-Divers-Artibus 23. Two
+Discourses: I. an Essay On the Whole Art of Criticism ... - Indigo,
+https://www.indigo.ca/products/two-discourses 24. 11. Rhetoric and the Ideological Turn - PALNI
+Pressbooks,
+https://pressbooks.palni.org/writingfordigitalmedia/chapter/rhetoric-and-the-ideological-turn/ 25.
+The third persona: An ideological turn in rhetorical theory,
+https://www.semanticscholar.org/paper/The-third-persona%3A-An-ideological-turn-in-theory-Wa
+nder/16e2a69cf50102cfce87146fadab739a83fef6d2 26. Garbage in, garbage out? How the
+monster of AI art reflects human,
+https://www.researchgate.net/publication/399954984_Garbage_in_garbage_out_How_the_mon
+ster_of_AI_art_reflects_human_fault_bias_and_capitalism_in_contemporary_culture 27.
+Understanding Ultracrepidarianism | PDF | Social Science - Scribd,
+https://www.scribd.com/document/627735696/Sutor-ne-ultra-crepidam 28. The Death of the
+Critic—or a Rebirth? Art Criticism in the Age of Likes,
+https://sanbuk.art/blogs/news/death-of-the-critic-or-rebirth-art-criticism-age-of-likes 29. Ficino
+and Fantasy Imagination in Renaissance Art and Theory from,
+https://dokumen.pub/ficino-and-fantasy-imagination-in-renaissance-art-and-theory-from-botticelli
+-to-michelangelo-9004459677-9789004459670.html 30. A Companion to Art Theory - PDF Free
+Download - epdf.pub, https://epdf.pub/a-companion-to-art-theory.html 31. NEW DIRECTIONS
+IN ANCIENT PANTOMIME - Edith Hall,
+https://edithhall.co.uk/wp-content/uploads/2023/03/new-directions.pdf 32. Winckelmann and the
+Invention of Antiquity - dokumen.pub,
+https://dokumen.pub/winckelmann-and-the-invention-of-antiquity-aesthetics-and-history-in-the-a
+ge-of-altertumswissenschaft-classical-presences-illustrated-9780199695843-0199695849.html
+33. Apelles and Protogenes,
+https://penelope.uchicago.edu/encyclopaedia_romana/greece/hetairai/apelles.html 34.
+Shoemaker stick to your last - Apelles - Alaturka,
+https://www.alaturka.info/en/history/antiquity/5621-shoemaker-stick-to-your-last-apelles 35. Ne
+supra crepidam - Wikipedia, https://en.wikipedia.org/wiki/Ne_supra_crepidam 36. Let the
+cobbler stick to his last - Oxford Reference,
+https://www.oxfordreference.com/display/10.1093/acref/9780199539536.001.0001/acref-978019
+9539536-e-393?d=%2F10.1093%2Facref%2F9780199539536.001.0001%2Facref-9780199539
+536-e-393&p=emailAe5%2FBgvIKUT5. 37. the origin of ultracrepidarian - windowthroughtime,
+https://windowthroughtime.wordpress.com/tag/the-origin-of-ultracrepidarian/ 38. A Word on
+Vocabulary #21: Ultracrepidarian - Nick Marone,
+https://nickmarone.com/a-word-on-vocabulary-21-ultracrepidarian/ 39. PLINY THE ELDER,
+Natural History | Loeb Classical Library,
+https://www.loebclassics.com/view/pliny_elder-natural_history/1938/pb_LCL394.325.xml?print=
+40. "Ne supra crepidam sutor!" [Cobbler, stay with your last!],
+https://www.researchgate.net/publication/296176628_Ne_supra_crepidam_sutor_Cobbler_stay
+_with_your_last_The_dictum_of_Apelles_since_Petrarch_up_to_the_end_of_the_Quattrocento
+41. Sutor, ne ultra crepidam - Wikipedia : r/WikipediaRandomness - Reddit,
+https://www.reddit.com/r/WikipediaRandomness/comments/l8wifn/sutor_ne_ultra_crepidam_wiki
+pedia/ 42. How the Renaissance Redefined Artistic Identity - School Press,
+https://schoolpress.sch.gr/renaissance/archives/241 43. Theophilus and the Theory and
+Practice of Medieval Art,
+https://dokumen.pub/theophilus-and-the-theory-and-practice-of-medieval-art-9780271079837.ht
+ml 44. The Reception of Stained Glass in - Brill,
+https://brill.com/display/book/edcoll/9789004395718/BP000016.xml 45. Gates to Paradise -
+Verlag Schnell & Steiner,
+https://schnell-und-steiner.de/wp-content/uploads/2026/06/9783795439873.pdf 46. Chapter 12
+The Reception of Stained Glass in - DOI, https://doi.org/10.1163/9789004395718_016 47.
+Investigations in Medieval Stained Glass: Materials, Methods, and,
+https://dokumen.pub/investigations-in-medieval-stained-glass-materials-methods-and-expressio
+ns-9004395725-9789004395725.html 48. Illuminating Metalwork: Metal, Object, and Image in
+Medieval,
+https://dokumen.pub/illuminating-metalwork-metal-object-and-image-in-medieval-manuscripts-9
+783110637526-9783110620153.html 49. Giorgio Vasari's Prefacesitled : Art and Theory,
+https://api.pageplace.de/preview/DT0400.9781453905678_A24026682/preview-978145390567
+8_A24026682.pdf 50. Art and Theory in Renaissance Italy: Born under Saturn,
+http://arthistoryresources.net/renaissance-art-theory-2014/born-under-saturn.html 51. Vasari on
+Leon Battista Alberti | PDF | Social Science | Art - Scribd,
+https://www.scribd.com/doc/50954082/Giorgio-Vasari-The-Lives-Of-The-Most-Eminent-Painters-
+Sculptors-And-Architects 52. The National Gallery of Art - Italian Renaissance Learning
+Resources, https://www.italianrenaissanceresources.com/units/unit-3/sub-page-04/ 53. Excerpts
+from Cennino Cennini's Handbook,
+https://www.italianrenaissanceresources.com/units/unit-3/sub-page-03/excerpts-from-cennino-c
+enninis-handbook/ 54. Vasari on Technique - Project Gutenberg,
+https://www.gutenberg.org/files/73397/73397-h/73397-h.htm 55. Art criticism in the 18th century:
+Enlightenment theory - Britannica,
+https://www.britannica.com/art/art-criticism/Art-criticism-in-the-18th-century-Enlightenment-theor
+y 56. Denis Diderot - Stanford Encyclopedia of Philosophy,
+https://plato.stanford.edu/entries/diderot/ 57. Chapter Six: The Ruskinian Sublime - The
+Victorian Web, https://victorianweb.org/authors/ruskin/artofthebeholder/6.html 58. De Piles,
+Drawing and Color. An Essay in Quantitative Art History,
+https://eclass.asfa.gr/modules/document/file.php/AHT4108/De%20Piles%2C%20Drawing%20a
+nd%20Color.%20An%20Essay%20in%20Quantitative%20Art%20History.pdf 59. Piles, Roger de
+- Oxford Reference,
+https://www.oxfordreference.com/view/10.1093/acref/9780198604761.001.0001/acref-97801986
+04761-e-2755 60. De Piles, https://dipot.ulb.ac.be/dspace/bitstream/2013/152102/1/de-piles.pdf
+61. Roger de Piles in the 21st Century - DigitalCommons@COD,
+https://dc.cod.edu/cgi/viewcontent.cgi?article=1238&context=essai 62. Jonathan Richardson |
+English critic | Britannica, https://www.britannica.com/biography/Jonathan-Richardson 63.
+Catalog Record: The works of Mr. Jonathan Richardson :,
+https://catalog.hathitrust.org/Record/100236634 64. consisting of I. The theory of painting, II.
+Essay on the art of criticism, https://archive.org/details/worksofmrjonatha00rich 65. H-France
+Salon, https://h-france.net/Salon/SalonVol13no13.8.Bruhn.pdf 66. Diderot's Encyclopédie: The
+Book France Banned but Couldn't Stop,
+https://historycollection.com/diderot-encyclopedie-banned-france-enlightenment/ 67. INNER
+CONFLICT: ART CRITICISM, SEEN FROM ITS BEGINNINGS,
+https://www.textezurkunst.de/en/87/inner-conflict/ 68. Denis Diderot - Simple English Wikipedia,
+the free encyclopedia, https://simple.wikipedia.org/wiki/Denis_Diderot 69. Portraying Diderot:
+the aftermath - Cambridge University Press,
+https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D16C0A822CE9C
+8438CA294425AA5CAAB/9780511519451c6_p204-251_CBO.pdf/portraying-diderot-the-afterm
+ath.pdf 70. Diderot, Denis - united architects - essays - WordPress.com,
+https://danassays.wordpress.com/encyclopedia-of-the-essay/diderot-denis/ 71. Immanuel Kant:
+Aesthetics - Internet Encyclopedia of Philosophy, https://iep.utm.edu/kantaest/ 72. BEETHOVEN
+AND KANT, https://internet.beethoven.de/pdf-web/beethoven_kant_begleitheft_en 73. Kant's
+Concept of Genius: A Defence, Against Romanticism and,
+https://mimesisjournals.com/ojs/index.php/aesthetica-preprint/article/download/1484/1186 74.
+Art, http://faculty.ndhu.edu.tw/~shtang/classical/ebooks/critique-of-judgment/part8b.html 75.
+What does "giving rule to art" means? - Philosophy Stack Exchange,
+https://philosophy.stackexchange.com/questions/105867/what-does-giving-rule-to-art-means 76.
+Kant vs. Nietzsche on Genius | PDF | Philosophy - Scribd,
+https://www.scribd.com/document/651318405/GENIUS-by-Kant-and-Nietzsche 77. The Painter
+of Modern Life, https://www.columbia.edu/itc/architecture/ockman/pdfs/dossier_4/Baudelaire.pdf
+78. The Painter of Modern Life and Other Essays,
+http://ftp.columbia.edu/itc/architecture/ockman/pdfs/dossier_4/Baudelaire.pdf 79. The
+cantankerous criticism of Charles Baudelaire - Apollo Magazine,
+https://apollo-magazine.com/charles-baudelaire-bicentenary-art-criticism/ 80. Criticism on
+Canvas – Baudelaire's Critic as Painter of Modern Life,
+https://janeway.uncpress.org/capstone/article/2955/galley/3009/download/ 81. The Critic As
+Artist - page 17 - Oscar Wilde Online,
+https://www.wilde-online.info/the-critic-as-artist-page17.html 82. Page:Baudelaire - Curiosités
+esthétiques 1868.djvu/89 - Wikisource,
+https://fr.wikisource.org/wiki/Page:Baudelaire_-_Curiosit%C3%A9s_esth%C3%A9tiques_1868.d
+jvu/89 83. Écrits sur l'art by Charles Baudelaire - Goodreads,
+https://www.goodreads.com/book/show/2528694 84. “Half Art”: Baudelaire's Le Peintre de la vie
+moderne - MIT Press,
+https://direct.mit.edu/daed/article-pdf/143/1/46/1830313/daed_a_00252.pdf 85. Charles
+Baudelaire, “The Painter of Modern Life” (1863) III. An Artist,
+https://www.writing.upenn.edu/library/Baudelaire_Painter-of-Modern-Life_1863.pdf 86. Eye of
+the Flâneur (?):Re-Evaluating Modernism - Portia Placino,
+https://portiaplacino.com/2011/07/28/eye-of-the-flaneur-re-evaluating-modernism/ 87. The Critic
+as Artist - Wikipedia, https://en.wikipedia.org/wiki/The_Critic_as_Artist 88. The Critic as Artist |
+Books | David Zwirner, https://www.davidzwirner.com/collect/the-critic-as-artist-book 89. The
+Critic As Artist: With Some Remarks on the Importance of Doing,
+https://www.goodreads.com/en/book/show/592625.The_Critic_As_Artist 90. The Critic as Artist
+by Oscar Wilde - Publication Studio, https://publicationstudio.biz/books/the-critic-as-artist/ 91.
+Critic as Artist by Oscar Wilde - ICA Miami,
+https://shop.icamiami.org/products/critic-as-artist-by-oscar-wilde 92. The Critic as Artist | work
+by Wilde | Britannica, https://www.britannica.com/topic/The-Critic-as-Artist 93. Conceptualism
+and Sots Art - Arzamas, https://arzamas.academy/materials/1235 94. The Curatorial Turn: From
+Practice to Discourse - Amazon S3,
+http://s3.amazonaws.com/arena-attachments/1781564/57b08d50a60f783e64969777178208c6.
+pdf 95. Joseph Kosuth and ethics as a mediator between meaning and,
+https://convergencias.ipcb.pt/index.php/convergences/article/view/142 96. Kosuth's Art After
+Philosophy Writings | PDF | Books | The Arts - Scribd,
+https://www.scribd.com/document/931688095/Art-After-Philosophy-and-After-Collected-Writings
+-Edited-With-an-Introduction-by-Gabriele-Guercio-Foreword-by-1st-MIT-Press-Pbk-Ed-London
+97. Long Read — Looking Back in the Name of Progress: Curator as Artist,
+https://medium.com/@livkenney/long-read-looking-back-in-the-name-of-progress-curator-as-arti
+st-1c24e42305a8 98. the curatorial turn: from practice to discourse,
+https://mnuai.ro/wp-content/uploads/2023/05/null-THE-CURATORIAL-TURN-FROM-PRACTICE
+-TO.pdf 99. the curatorial | not-just-art curating - Springerin,
+https://www.springerin.at/en/2017/1/kuratorin-kuratieren-das-kuratorische-nicht-nur-kunst-kuratie
+ren/ 100. CURATING BIBLIOGRAPHY | sophia kosmaoglou,
+https://videomole.tv/curating-bibliography/ 101. The Curatorial Turn in Contemporary Art | PDF |
+Curator - Scribd, https://www.scribd.com/document/236417953/ONeill-Curatorial-Turn-pdf 102.
+The Culture of Curating by Paul O'Neill | PDF | Discourse - Scribd,
+https://www.scribd.com/document/310829172/paul-o-neill-pdf 103. The Curatorial Turn in Art
+Exhibitions | PDF | Curator - Scribd,
+https://www.scribd.com/document/426063923/Curatorial-Turn-Paul-O-Neill 104. Issues in
+Curating Contemporary Art and Performance,
+https://www.imageandnarrative.be/inarchive/Timeandphotography/ruchel.html 105. The Art of
+the Video Essay - The Vindicator, https://www.thevindi.com/post/the-art-of-the-video-essay 106.
+The rise of the YouTube video essay | by Simon Owens - Medium,
+https://medium.com/the-business-of-content/the-rise-of-the-youtube-video-essay-79289aa02458
+107. The beauty of the YouTube video essay - Old Gold & Black,
+https://wfuogb.com/13597/arts-and-culture/the-beauty-of-the-youtube-video-essay/ 108. How
+the Nerdwriter Conquered the Internet | The New Yorker Radio,
+https://www.wnycstudios.org/podcasts/tnyradiohour/segments/how-nerdwriter-conquered-intern
+et-segment 109. 5 Art Analysis YouTube Video Essays Worth Your Time - ArtRKL,
+https://artrkl.com/blogs/news/5-art-analysis-youtube-video-essays-worth-your-time 110. Any
+thoughts on these critical comments under the newest Solar,
+https://www.reddit.com/r/MauLer/comments/1gi7ykd/any_thoughts_on_these_critical_comments
+_under_the/ 111. Best Video Essays | Vox - YouTube,
+https://www.youtube.com/watch?v=A55wwgPinMk
+
