@@ -12,10 +12,15 @@ def fresh():
 
 
 def passing():
-    """Synthetic fixture, NOT a finding: one sourced De Piles reception row is flipped to a
-    rejection so the immediate/later split exists. Exercises the validator's PASS path."""
+    """The shipped v0.3 record (it passes on its own)."""
+    return fresh()
+
+
+def v02_coding():
+    """The v0.2 coding: the two corrected receptions recorded as plain grants."""
     d = fresh()
-    ev(d, "e_dp_mairan").update(outcome="rejected", granted="none")
+    for eid in ("e_dp_richardson", "e_dp_mairan"):
+        ev(d, eid)["outcome"] = "granted"
     return d
 
 
@@ -27,16 +32,32 @@ def ev(d, eid):
 
 
 class PilotTest(unittest.TestCase):
-    def test_shipped_pilot_fails_on_the_timing_rule(self):
+    def test_shipped_pilot_passes_on_v03(self):
         res = L.evaluate(fresh())
+        self.assertTrue(res.passed, res.errors)
+        self.assertIn("timing split: de_piles", res.findings)
+        self.assertEqual(L.main([]), 0)
+
+    def test_v02_coding_failed_the_timing_rule(self):
+        res = L.evaluate(v02_coding())
         self.assertFalse(res.passed)
         self.assertFalse(res.inconclusive)
         self.assertEqual(res.errors, ["no critic shows an immediate/later reception split; timing field adds nothing"])
-        self.assertEqual(L.main([]), 1)
 
-    def test_synthetic_fixture_passes(self):
-        res = L.evaluate(passing())
-        self.assertTrue(res.passed, res.errors)
+    def test_contested_must_grant_a_level(self):
+        d = fresh()
+        ev(d, "e_dp_mairan").update(outcome="contested", granted="none")
+        self.assertFalse(L.evaluate(d).passed)
+
+    def test_contested_rows_quote_a_reservation(self):
+        for e in DATA["events"]:
+            if e.get("outcome") == "contested":
+                self.assertRegex(e["source"], r"(?i)not a just idea|n'en est pas de m[eê]me|corrections?", e["id"])
+
+    def test_contested_is_not_a_pending_placeholder(self):
+        # contested counts as a reception on the evidence-grade pass
+        sig = L.signature(DATA, "de_piles", evidence_only=True)
+        self.assertEqual(sum(1 for _, _, o in sig if o == "contested"), 2)
 
     def test_every_high_confidence_source_cites_a_place_in_a_text(self):
         for e in DATA["events"]:
