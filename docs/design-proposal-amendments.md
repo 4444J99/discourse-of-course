@@ -18,4 +18,4 @@ The field state `data/world-field-state-paris-london-1708-1765.json` carries W1,
 1. A `legitimation` block on event records: `authority_claim` and `claimed_vs_granted` (the proposal's `authority_map` describes the field, not a speaker's claim).
 2. A `timing` key on `reception_distribution` entries (`immediate`, `delayed`, `posthumous`), so a critic's immediate and posthumous receptions do not collapse into one profile (diagnostic RD-1 forbids a single verdict).
 
-Both are implemented in `src/discourse_of_course/house_schema.py` once the event mapping lands; they are not yet folded into the proposal itself.
+Neither is folded into the proposal itself. The event mapping that uses them is the next change (`house_schema.py`, not yet written at this commit).

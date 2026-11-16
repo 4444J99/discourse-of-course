@@ -67,6 +67,13 @@ class WorldTest(unittest.TestCase):
         same = fresh()
         self.assertEqual(W.consecrator_migrates(DATA, same), [])  # nothing added
 
+    def test_malformed_input_reports_instead_of_crashing(self):
+        d = fresh()
+        d["axioms"][0]["statement"] = 5
+        self.assertTrue(W.validate_field_state(d))
+        self.assertTrue(W.channels_additive({}, DATA))
+        self.assertTrue(W.consecrator_migrates(DATA, {"field_state": {}}))
+
     def test_field_state_is_transcribed_from_the_spec(self):
         spec = (ROOT / "docs" / "perplexity" / "legitimation-pilot-spec.md").read_text(encoding="utf-8")
         for s in DATA["field_state"]["channels"] + DATA["field_state"]["authority_map"]["gatekeepers"]:

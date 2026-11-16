@@ -41,7 +41,9 @@ def validate_field_state(d: dict[str, Any]) -> list[str]:
     if not str(d["id"]).startswith("world-field-state-"):
         errs.append("id must start with 'world-field-state-'")
     axioms = d["axioms"]
-    if not isinstance(axioms, list) or not all(isinstance(a, dict) and a.get("id") and a.get("statement") for a in axioms):
+    if not isinstance(axioms, list) or not all(
+        isinstance(a, dict) and a.get("id") and isinstance(a.get("statement"), str) and a["statement"] for a in axioms
+    ):
         errs.append("axioms must be a list of {id, statement}")
         return errs
     ids = [a["id"] for a in axioms]
@@ -81,15 +83,21 @@ def validate_field_state(d: dict[str, Any]) -> list[str]:
 
 def channels_additive(earlier: dict[str, Any], later: dict[str, Any]) -> list[str]:
     """W4a: every channel of the earlier state is still present in the later one."""
-    gone = [c for c in earlier["field_state"]["channels"] if c not in later["field_state"]["channels"]]
+    try:
+        gone = [c for c in earlier["field_state"]["channels"] if c not in later["field_state"]["channels"]]
+    except (KeyError, TypeError):
+        return ["malformed field state: channels missing"]
     return [f"channel {c!r} disappeared; W4a says channels are additive" for c in gone]
 
 
 def consecrator_migrates(earlier: dict[str, Any], later: dict[str, Any]) -> list[str]:
     """W4b: if the later state adds a consecrator (whose_judgments_count), at least one earlier
     consecrator must be gone, because a new consecrator displaces the prior one."""
-    a = set(earlier["field_state"]["authority_map"]["whose_judgments_count"])
-    b = set(later["field_state"]["authority_map"]["whose_judgments_count"])
+    try:
+        a = set(earlier["field_state"]["authority_map"]["whose_judgments_count"])
+        b = set(later["field_state"]["authority_map"]["whose_judgments_count"])
+    except (KeyError, TypeError):
+        return ["malformed field state: whose_judgments_count missing"]
     if b - a and a <= b:
         return ["a consecrator was added and none was displaced; W4b says consecrating authority migrates"]
     return []
