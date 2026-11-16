@@ -19,11 +19,19 @@ The pilot asks whether a four-field model can tell three critics apart without t
 | granting_receiver | the audience that accepts, ignores or rejects the claim |
 | recognition_outcome | what was granted, by whom, when (immediate / later / posthumous) |
 
+Outcomes: `granted`, `contested` (taken up and corrected; v0.3), `ignored`, `rejected`, `pending` (a placeholder, never a reception).
+
 Rules: claimed and granted authority are separate values (`gap = granted - asserted`); influence is never evidence of being right; orientation is fixed input.
 
 Verdicts (exit code): PASS (0) when, on medium/high-confidence events only, the three critics have pairwise-distinct reception signatures, at least one claimed/granted gap is nonzero, an immediate/later timing split exists, and a recorded field change follows a granted outcome of the same critic. FAIL (1) when a rule breaks or the critics look alike. INCONCLUSIVE (2) when the rules hold but a critic has fewer than two medium/high-confidence outcomes, so low-confidence rows would be carrying the result.
 
-**Current shipped result: FAIL (exit 1)**, on sourced evidence, by the unchanged validator. Every critic now has at least two evidence-grade outcomes, the three reception signatures are pairwise distinct, and claimed and granted authority differ (Richardson claimed field-level standing for a science of connoisseurship and the sources show single receivers; De Piles's scale later gets a field-level grant from scholars). The one rule that fails is the timing rule: no critic shows an immediate/later split, because every sourced outcome is coded `granted`. The sources do show something finer than that. Richardson (1715, 1719) and Mairan (1755) take up De Piles's Balance and correct it ("Curious, and Useful" but "not a just Idea"; the degrees should be multiplied, not added), and the outcome vocabulary (`granted`, `ignored`, `rejected`, `pending`) has no value for a grant with corrections. The pilot's own protocol says a FAIL sends the four-field model back for revision; that revision is the next slice, not part of this one.
+**Current shipped result (v0.3): PASS (exit 0).** Earlier sourced result (v0.2): FAIL (exit 1). Both are reported because v0.3 is a revision made after seeing the FAIL, so its PASS is not an independent confirmation.
+
+- v0.2 coded every sourced reception `granted`. The three reception signatures were distinct and claimed and granted authority differed, but no critic showed an immediate/later split, so the timing rule failed.
+- The sources say something finer than granted: Richardson (1715, 1719) calls the Balance "Curious, and Useful" but "not a just Idea" and then adopts it with alterations; Mairan (1755) praises the idea and corrects the execution (multiply the degrees, do not add). The outcome vocabulary had no value for that, so v0.3 adds `contested` (the receiver takes the claim up and corrects it; it must grant a level above `none`). Only those two rows are recoded, each because its quoted text states the reservation.
+- On v0.3, De Piles shows the split: a formal grant by the Academie in 1699, then posthumous receptions that correct the scale (Richardson, Mairan) and a field-level grant from scholars (Graddy 2013, Ginsburgh and Weyers 2002). `test_v02_coding_failed_the_timing_rule` keeps the old verdict reproducible.
+- Review dispositions (independent verifier, PR 3): accepted and stated here. Either recode alone clears the timing rule; only reverting both gives the FAIL. The timing rule compares sets of outcome labels (`now != later`), so adding any label to the later set can clear it without proving a substantive timing difference; that weakness predates v0.3 and is a reason to read the PASS cautiously and to replace the rule with a level-and-label comparison before the second period. Richardson's reservation is the 1715 text (p. 230) and his adoption is the 1719 text (discourse I, p. 55).
+- Limits: Diderot rests on secondary sources (medium); Richardson has no reception from 1715 to 1727; the pilot passes on a small, hand-coded record and says nothing about other periods.
 
 What sourcing changed (v0.1 to v0.2, details in `data/pilot.json` and `docs/sources.md`):
 
@@ -43,7 +51,7 @@ PYTHONPATH=src python3 -m unittest discover -s tests
 
 ## Next
 
-1. Revise the outcome vocabulary so a grant with corrections can be recorded (the FAIL above), re-code only rows whose primary text states the reservation, and report both verdicts.
+1. Test v0.3 on a second period before trusting it (the spec says to apply the model to other periods only after the pilot holds).
 2. Import the Perplexity project files (Legitimation Pilot spec, design proposal, synthesis matrix). Not retrieved: the local Perplexity app stores hold no file bodies, only pointers (see `docs/sources.md`).
 3. Map the pilot records onto the house schema once the design proposal is imported.
 4. Diderot: read the primary Salons and a scholarly edition (Naigeon 1800 vs the conflicting 1795 date).

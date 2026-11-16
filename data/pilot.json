@@ -1,15 +1,36 @@
 {
-  "schema": "discourse-of-course/legitimation-pilot/v0",
+  "schema": "discourse-of-course/legitimation-pilot/v0.3",
   "scope": "Paris-London art criticism, 1699-1813 (critics active 1708-1765), three critics with documented but different routes to standing",
-  "note": "v0.2. The De Piles and Richardson reception rows are sourced from texts read in full-text scans (editions and pages in each 'source'; scans listed in docs/sources.md). Level rule used for every row: a single named receiver or editor acting alone is 'coterie'; a body acting formally, or several independent studies in agreement, is 'field'; 'canon' needs a source that says so and none was found. Confidence: high = primary text read; medium = authoritative secondary read, or a primary read with an estimated date; low = unsourced. Unsourced rows are kept as low and cannot carry the verdict. Nothing here is a finding about whether any critic was right.",
+  "note": "v0.3. Outcome vocabulary revised after the v0.2 FAIL: e_dp_richardson and e_dp_mairan are recoded from granted to contested because the primary texts say the receiver takes the scale up and corrects it (quotes in each source). The v0.2 record, coded granted throughout, fails the timing rule; both verdicts are reported in the README. This is a revision made after seeing the result, so the PASS is not an independent confirmation. The De Piles and Richardson reception rows are sourced from texts read in full-text scans (editions and pages in each 'source'; scans listed in docs/sources.md). Level rule used for every row: a single named receiver or editor acting alone is 'coterie'; a body acting formally, or several independent studies in agreement, is 'field'; 'canon' needs a source that says so and none was found. Confidence: high = primary text read; medium = authoritative secondary read, or a primary read with an estimated date; low = unsourced. Unsourced rows are kept as low and cannot carry the verdict. Nothing here is a finding about whether any critic was right.",
   "receivers": [
-    {"id": "academie", "name": "Royal Academy of Painting and Sculpture (Paris), its Protector and members"},
-    {"id": "amateurs", "name": "collectors and amateurs (connoisseur public)"},
-    {"id": "savants", "name": "Academie royale des sciences (Paris)"},
-    {"id": "practitioners", "name": "painters and their biographers"},
-    {"id": "continental_readers", "name": "French-reading public on the Continent (via the Amsterdam translation)"},
-    {"id": "subscribers", "name": "Grimm's Correspondance subscriber circle of European courts"},
-    {"id": "later_scholars", "name": "later scholars, editors, markets and canon-makers"}
+    {
+      "id": "academie",
+      "name": "Royal Academy of Painting and Sculpture (Paris), its Protector and members"
+    },
+    {
+      "id": "amateurs",
+      "name": "collectors and amateurs (connoisseur public)"
+    },
+    {
+      "id": "savants",
+      "name": "Academie royale des sciences (Paris)"
+    },
+    {
+      "id": "practitioners",
+      "name": "painters and their biographers"
+    },
+    {
+      "id": "continental_readers",
+      "name": "French-reading public on the Continent (via the Amsterdam translation)"
+    },
+    {
+      "id": "subscribers",
+      "name": "Grimm's Correspondance subscriber circle of European courts"
+    },
+    {
+      "id": "later_scholars",
+      "name": "later scholars, editors, markets and canon-makers"
+    }
   ],
   "critics": [
     {
@@ -97,7 +118,7 @@
       "timing": "posthumous",
       "claim": "dp_scales",
       "receiver": "amateurs",
-      "outcome": "granted",
+      "outcome": "contested",
       "granted": "coterie",
       "source": "J. Richardson, An Essay on the Theory of Painting, London: W. Bowyer for John Churchill, 1715, p. 230-231: the scale 'is Curious, and Useful' but 'gives not a just Idea of the Masters' (Rembrandt rated above Michelangelo). Two Discourses, London: W. Churchill, 1719, discourse I, p. 55 (folio read from OCR): 'with a little Alteration and Improvement may be of great use to Lovers of Art, and Connoisseurs', then pp. 55-56 his own revised scale. A single connoisseur adopting the scale with corrections, 6 years after De Piles's death (Procès-verbaux IV, p. 81 by inference from the next page header, assembly of 6 April 1709: died 'hier, cinquieme du present mois'). Scans: archive.org bim_eighteenth-century_an-essay-on-the-theory-o_richardson-jonathan_1715, twodiscoursesies00rich",
       "confidence": "high"
@@ -110,7 +131,7 @@
       "timing": "posthumous",
       "claim": "dp_scales",
       "receiver": "savants",
-      "outcome": "granted",
+      "outcome": "contested",
       "granted": "coterie",
       "source": "Mairan, 'Remarques sur la Balance des Peintres de M. de Piles', Memoires de l'Academie royale des sciences, annee 1755 (Paris: Imprimerie royale, 1761), Memoires p. 1 ff.; summary in the Histoire, section Geometrie, p. 79: 'L'idee de M. de Piles est ingenieuse et nouvelle' but 'il n'en est pas de meme du cote de l'execution'; Mairan's main correction is that the four degrees should be multiplied, not added. Mairan adopts the idea as 'essais de justesse'. Scan: archive.org histoiredelacad55acad. This is the 'Mairan 1755' item the Perplexity spec attached to Richardson; it concerns De Piles.",
       "confidence": "high"

@@ -29,7 +29,9 @@ from pathlib import Path
 from typing import Any
 
 FIELDS = ("position", "authority_claim", "granting_receiver", "recognition_outcome")
-OUTCOMES = ("granted", "ignored", "rejected", "pending")
+# "contested": the receiver takes the claim up and corrects it (a grant with reservations).
+# Added in v0.3 after the sourced v0.2 record failed the timing rule (see README).
+OUTCOMES = ("granted", "contested", "ignored", "rejected", "pending")
 TIMINGS = ("immediate", "later", "posthumous")
 CONFIDENCE = ("high", "medium", "low")
 # Ordinal ladder shared by claims (asserted) and outcomes (granted).
@@ -126,8 +128,8 @@ def _structural(data: dict[str, Any], res: Result) -> dict[str, dict[str, Any]]:
             if ev.get("granted") not in LEVELS:
                 res.fail(f"{eid}: granted level {ev.get('granted')!r} not in {sorted(LEVELS)}")
             else:
-                if ev.get("outcome") == "granted" and ev["granted"] == "none":
-                    res.fail(f"{eid}: outcome granted must grant a level above 'none'")
+                if ev.get("outcome") in ("granted", "contested") and ev["granted"] == "none":
+                    res.fail(f"{eid}: outcome {ev['outcome']} must grant a level above 'none'")
                 if ev.get("outcome") in ("ignored", "rejected", "pending") and ev["granted"] != "none":
                     res.fail(f"{eid}: outcome {ev['outcome']} must grant level 'none'")
     for cid in critics:
