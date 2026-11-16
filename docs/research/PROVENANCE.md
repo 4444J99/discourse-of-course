@@ -18,7 +18,7 @@ Found on 2026-11-15 in the owner's iCloud Drive, `~/Library/Mobile Documents/com
 - The disclaimer matches Cours de peinture par principes (1708) p. 489, which the pilot reads in French ("plutot pour me divertir que pour attirer les autres dans mon sentiment").
 - The Rembrandt over Michelangelo ordering matches Richardson's own 1715 remark (Essay on the Theory of Painting, p. 230), which the pilot cites as its reception row.
 - Count mismatch: this PDF says 56 painters; Graddy's abstract says 58 artists. Not resolved here; the pilot does not use either number.
-- The PDF does not mention Mairan, the 1755 critique, or Richardson's 1715 Essay on De Piles; those spec items came from a Hogarth enthusiast site and were resolved against primary texts in PR 2.
+- The PDF does not mention Mairan, the 1755 critique, or Richardson's 1715 Essay on De Piles in its body text (its reference list names a 1773 Works of Richardson that includes the Theory of Painting, as a catalogue entry only); those spec items came from a Hogarth enthusiast site and were resolved against primary texts in PR 2.
 - Contemporary reception of the Balance (the "clever way to characterize genius" line) and the Schlosser rejection have no source in the PDF.
 
 ## The synthesis matrix
