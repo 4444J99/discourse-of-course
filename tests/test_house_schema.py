@@ -61,6 +61,29 @@ class MappingTest(unittest.TestCase):
                 self.assertEqual(e[k], s[k], (e["id"], k))
             self.assertIn(e["speaker"], s["speaker"])
 
+    def test_derived_fields_come_from_the_pilot_and_copied_ones_say_why(self):
+        outcomes = {e["id"]: e for e in PILOT["events"]}
+        dp = EVENTS[0]
+        self.assertEqual([m["event_ref"] for m in dp["lineage"]["mutations"]], ["e_dp_richardson", "e_dp_mairan"])
+        for m in dp["lineage"]["mutations"]:
+            self.assertEqual(outcomes[m["event_ref"]]["outcome"], "contested")
+            self.assertEqual(m["year"], outcomes[m["event_ref"]]["year"])
+        # No contested row, no mutation: nothing is invented for the other critics.
+        self.assertEqual(EVENTS[1]["lineage"]["mutations"], [])
+        self.assertEqual(EVENTS[2]["lineage"]["mutations"], [])
+        fcs = {fc["critic"]: fc for fc in PILOT["field_changes"]}
+        for e, cid in zip(EVENTS, ("de_piles", "richardson", "diderot")):
+            deltas = e["feedback"]["world_state_deltas"]
+            if cid in fcs:
+                self.assertEqual([d["field_change_ref"] for d in deltas], [fcs[cid]["id"]])
+                self.assertEqual(deltas[0]["because_confidence"], outcomes[fcs[cid]["because"]]["confidence"])
+            else:
+                self.assertEqual(deltas, [])  # Richardson has no recorded field change
+            self.assertTrue(e["saturation"]["basis"].startswith("spec, not derivable"))
+            self.assertTrue(e["displacement"]["basis"].startswith("spec, not derivable"))
+            self.assertTrue(e["lineage"]["unverified_spec_mutations"])
+            self.assertTrue(e["feedback"]["unverified_spec_world_state_deltas"])
+
     def test_the_spec_rejection_of_mairan_is_not_carried(self):
         # The spec codes Mairan 1755 as high rejection; the primary text read for the pilot shows a correction.
         r = next(r for r in EVENTS[0]["reception_distribution"] if r["event_ref"] == "e_dp_mairan")
