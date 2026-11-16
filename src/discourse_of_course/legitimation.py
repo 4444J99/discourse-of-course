@@ -32,7 +32,7 @@ FIELDS = ("position", "authority_claim", "granting_receiver", "recognition_outco
 # "contested": the receiver takes the claim up and corrects it (a grant with reservations).
 # Added in v0.3 after the sourced v0.2 record failed the timing rule (see README).
 OUTCOMES = ("granted", "contested", "ignored", "rejected", "pending")
-TIMINGS = ("immediate", "later", "posthumous")
+TIMINGS = ("immediate", "delayed", "posthumous")  # the spec says "delayed"
 CONFIDENCE = ("high", "medium", "low")
 # Ordinal ladder shared by claims (asserted) and outcomes (granted).
 LEVELS = {"none": 0, "coterie": 1, "field": 2, "canon": 3}
@@ -240,7 +240,7 @@ def _evaluate(data: dict[str, Any]) -> Result:
     if split:
         res.findings.append("timing split: " + ", ".join(split))
     else:
-        res.fail("no critic shows an immediate/later reception split; timing field adds nothing")
+        res.fail("no critic shows an immediate/delayed reception split; timing field adds nothing")
     for i in ids:
         res.findings.append(f"signature {i}: {ev_sig[i]}")
     return res
