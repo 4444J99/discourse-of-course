@@ -89,6 +89,11 @@ class MappingTest(unittest.TestCase):
         self.assertTrue(any("timing" in m for m in H.validate_event(e, FS)))
         self.assertTrue(H.validate_event([], FS))
         e = one()
+        e["reception_distribution"][0]["community"] = ["a"]
+        e["reception_distribution"][1]["community"] = {"b": 1}
+        H.validate_event(e, FS)  # must not raise
+        self.assertTrue(H.validate_event(one(), []))
+        e = one()
         e["reception_distribution"] = [5, 6]
         self.assertTrue(H.validate_event(e, FS))
 

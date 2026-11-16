@@ -35,7 +35,8 @@ DATA = ROOT / "data"
 
 # Ordinal map from the pilot's granted level to a coarse resonance label. Nothing finer is coded.
 RESONANCE = {"none": "none", "coterie": "low", "field": "medium", "canon": "high"}
-# Rejection is read from the outcome only.
+# Rejection is read from the outcome only. "ignored" is neither resonance nor rejection, so it maps to "none"
+# here and is told apart by outcome; no pilot row is ignored.
 REJECTION = {"granted": "none", "contested": "partial", "ignored": "none", "rejected": "high", "pending": "unknown"}
 
 EVENT_KEYS = ("id", "field_state_ref", "speaker", "text", "orientation", "position", "lineage", "saturation",
@@ -117,7 +118,7 @@ def validate_event(ev: dict[str, Any], field_state: dict[str, Any]) -> list[str]
             errs.append(f"missing key {k!r}")
     if errs:
         return errs
-    if ev["field_state_ref"] != field_state.get("id"):
+    if not isinstance(field_state, dict) or ev["field_state_ref"] != field_state.get("id"):
         errs.append("field_state_ref does not name the field state")
     for k in ("speaker", "text", "orientation", "position"):
         if not isinstance(ev[k], str) or not ev[k]:
@@ -147,7 +148,7 @@ def validate_event(ev: dict[str, Any], field_state: dict[str, Any]) -> list[str]
                 errs.append(f"reception_distribution[{i}] timing {d.get('timing')!r} not in {L.TIMINGS}")
             if d.get("outcome") not in L.OUTCOMES:
                 errs.append(f"reception_distribution[{i}] outcome {d.get('outcome')!r} not in {L.OUTCOMES}")
-        if len({d.get("community") for d in dist if isinstance(d, dict)}) < 2:
+        if len({repr(d.get("community")) for d in dist if isinstance(d, dict)}) < 2:
             errs.append("reception_distribution needs at least two distinct communities (RD-1)")
     if not isinstance(ev["feedback"], dict) or not isinstance(ev["feedback"].get("world_state_deltas"), list):
         errs.append("feedback needs world_state_deltas")
