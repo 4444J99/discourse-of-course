@@ -1,0 +1,110 @@
+{
+  "source": {
+    "origin": "legitimation-pilot-spec.md section 5.3 (Perplexity output), transcribed unchanged",
+    "note": "lineage, saturation, displacement and feedback are the spec's own and are not derivable from the pilot record; they are not independently verified."
+  },
+  "events": {
+    "de_piles": {
+      "id": "event-depiles-balance-1708",
+      "text": "Balance des peintres (1708)",
+      "lineage": {
+        "origin": "Dialogue sur le coloris (1673)",
+        "mutations": [
+          {
+            "year": 1708,
+            "type": "amplified",
+            "note": "color made a scored, independent criterion"
+          },
+          {
+            "year": 1715,
+            "type": "domesticated",
+            "note": "Richardson adopts the method and adds categories"
+          }
+        ]
+      },
+      "saturation": {
+        "occupancy": "low",
+        "differentiation": "first numerical rating of painters"
+      },
+      "displacement": {
+        "taste_delta": "Color legitimized as an independent criterion",
+        "misfire_risk": "quantitative reductionism"
+      },
+      "feedback": {
+        "world_state_deltas": [
+          "'color is the soul of painting' moves from contested to sayable",
+          "numerical rating enters the channel repertoire"
+        ]
+      }
+    },
+    "richardson": {
+      "id": "event-richardson-two-discourses-1719",
+      "text": "Two Discourses (1719)",
+      "lineage": {
+        "origin": "De Piles' attribute method",
+        "mutations": [
+          {
+            "year": 1715,
+            "type": "amplified",
+            "note": "Invention, Handling, Grace and Greatness added"
+          },
+          {
+            "year": 1719,
+            "type": "amplified",
+            "note": "connoisseurship systematized as a 'science'"
+          },
+          {
+            "year": null,
+            "type": "inverted",
+            "note": "Ruskin abandons judicial detachment"
+          }
+        ]
+      },
+      "saturation": {
+        "occupancy": "low in English",
+        "differentiation": "first systematic English method of criticism"
+      },
+      "displacement": {
+        "belief_delta": "attribution framed as a learnable discipline",
+        "misfire_risk": "unmeasured"
+      },
+      "feedback": {
+        "world_state_deltas": [
+          "'criticism as rational science' joins the English sayable_set"
+        ]
+      }
+    },
+    "diderot": {
+      "id": "event-diderot-salon-1765",
+      "text": "Salon de 1765 (Greuze passage)",
+      "lineage": {
+        "origin": "Salons from 1759",
+        "mutations": [
+          {
+            "year": 1765,
+            "type": "amplified",
+            "note": "diegetic immersion: the critic speaks to the painted figure"
+          },
+          {
+            "year": null,
+            "type": "domesticated",
+            "note": "Proust's Elstir passages"
+          }
+        ]
+      },
+      "saturation": {
+        "occupancy": "open",
+        "differentiation": "criticism as an autonomous literary performance"
+      },
+      "displacement": {
+        "taste_delta": "sentimental genre painting (Greuze) given a raison d'être",
+        "misfire_risk": "critic overwrites the work"
+      },
+      "feedback": {
+        "world_state_deltas": [
+          "'criticism as sentimental performance' moves from anomalous to sayable"
+        ]
+      }
+    }
+  }
+}

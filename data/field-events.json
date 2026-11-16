@@ -1,0 +1,320 @@
+[
+  {
+    "id": "event-depiles-balance-1708",
+    "field_state_ref": "world-field-state-paris-london-1708-1765",
+    "speaker": "Roger de Piles",
+    "text": "Balance des peintres (1708)",
+    "orientation": "taxonomic-quantitative",
+    "position": "amateur: Conseiller honoraire of the Academie royale from 1699 (Procès-verbaux III p. 259; listed 'Conseiller-Amateur' IV p. 81 by inference), outside its teaching hierarchy",
+    "lineage": {
+      "origin": "Dialogue sur le coloris (1673)",
+      "mutations": [
+        {
+          "year": 1708,
+          "type": "amplified",
+          "note": "color made a scored, independent criterion"
+        },
+        {
+          "year": 1715,
+          "type": "domesticated",
+          "note": "Richardson adopts the method and adds categories"
+        }
+      ]
+    },
+    "saturation": {
+      "occupancy": "low",
+      "differentiation": "first numerical rating of painters"
+    },
+    "legitimation": {
+      "authority_claim": [
+        "painting and sculpture need certain principles, which an amateur can state to the Academie (Discours read 6 July 1699)",
+        "painters can be compared on numbered scales (composition, drawing, colour, expression); offered 'plutot pour me divertir que pour attirer les autres dans mon sentiment'"
+      ],
+      "claimed_vs_granted": "dp_principles: claimed field; granted field by Royal Academy of Painting and Sculpture (Paris), its Protector and members (immediate, granted, high) | dp_scales: claimed coterie; granted coterie by collectors and amateurs (connoisseur public) (posthumous, contested, high); coterie by Academie royale des sciences (Paris) (posthumous, contested, high); field by later scholars, editors, markets and canon-makers (posthumous, granted, medium)"
+    },
+    "reception_distribution": [
+      {
+        "community": "Royal Academy of Painting and Sculpture (Paris), its Protector and members",
+        "timing": "immediate",
+        "outcome": "granted",
+        "granted_level": "field",
+        "resonance": "medium",
+        "misreading": null,
+        "rejection": "none",
+        "event_ref": "e_dp_acad_1699",
+        "year": 1699,
+        "confidence": "high"
+      },
+      {
+        "community": "collectors and amateurs (connoisseur public)",
+        "timing": "posthumous",
+        "outcome": "contested",
+        "granted_level": "coterie",
+        "resonance": "low",
+        "misreading": null,
+        "rejection": "partial",
+        "event_ref": "e_dp_richardson",
+        "year": 1715,
+        "confidence": "high"
+      },
+      {
+        "community": "Academie royale des sciences (Paris)",
+        "timing": "posthumous",
+        "outcome": "contested",
+        "granted_level": "coterie",
+        "resonance": "low",
+        "misreading": null,
+        "rejection": "partial",
+        "event_ref": "e_dp_mairan",
+        "year": 1755,
+        "confidence": "high"
+      },
+      {
+        "community": "later scholars, editors, markets and canon-makers",
+        "timing": "posthumous",
+        "outcome": "granted",
+        "granted_level": "field",
+        "resonance": "medium",
+        "misreading": null,
+        "rejection": "none",
+        "event_ref": "e_dp_later",
+        "year": 2013,
+        "confidence": "medium"
+      }
+    ],
+    "displacement": {
+      "taste_delta": "Color legitimized as an independent criterion",
+      "misfire_risk": "quantitative reductionism"
+    },
+    "feedback": {
+      "world_state_deltas": [
+        "'color is the soul of painting' moves from contested to sayable",
+        "numerical rating enters the channel repertoire"
+      ]
+    },
+    "evidence": {
+      "events": [
+        "e_dp_claim_1699",
+        "e_dp_acad_1699",
+        "e_dp_claim",
+        "e_dp_richardson",
+        "e_dp_mairan",
+        "e_dp_later"
+      ],
+      "sources": [
+        "Montaiglon (ed.), Proces-verbaux de l'Academie royale de peinture et de sculpture 1648-1793, tome III (1689-1704), Paris: J. Baur, 1880, p. 268, assembly of 6 July 1699: a 'Discours sur la necessite ... d'establir des principes certains a la Peinture et a la Sculpture'. Scan: archive.org procsverbauxde03acaduoft",
+        "Same volume, p. 268 (6 July 1699): the Protector 'a fort recommande a la Compagnie d'en faire le cas qu'il merite' and said the Academie should address him through De Piles. Earlier, p. 259 (25 April 1699): the Compagnie invites him to take a seat among the Conseillers honoraires. The Discours is transcribed from p. 269 (to about p. 273), and on 24 July 1699 the Compagnie re-read it as a body ('du Discours de M' De Piles, cy-devant transcript', p. 274): the formal act that makes this 'field' under the level rule.",
+        "De Piles, Cours de peinture par principes, Paris: Jacques Estienne, 1708, 'La Balance des Peintres', pp. 489-490: 'J'ay fait cet essai plutot pour me divertir que pour attirer les autres dans mon sentiment'; made at the request of 'quelques personnes'; 20 degrees. Scan: archive.org bub_gb_NlS7XHJ_tuYC (OCR read; privilege 23 Jan 1708, approbation of the censor Raguet 19 Jan 1708 on the whole book: 'tres-utile et tres-agreable au Public')",
+        "J. Richardson, An Essay on the Theory of Painting, London: W. Bowyer for John Churchill, 1715, p. 230-231: the scale 'is Curious, and Useful' but 'gives not a just Idea of the Masters' (Rembrandt rated above Michelangelo). Two Discourses, London: W. Churchill, 1719, discourse I, p. 55 (folio read from OCR): 'with a little Alteration and Improvement may be of great use to Lovers of Art, and Connoisseurs', then pp. 55-56 his own revised scale. A single connoisseur adopting the scale with corrections, 6 years after De Piles's death (Procès-verbaux IV, p. 81 by inference from the next page header, assembly of 6 April 1709: died 'hier, cinquieme du present mois'). Scans: archive.org bim_eighteenth-century_an-essay-on-the-theory-o_richardson-jonathan_1715, twodiscoursesies00rich",
+        "Mairan, 'Remarques sur la Balance des Peintres de M. de Piles', Memoires de l'Academie royale des sciences, annee 1755 (Paris: Imprimerie royale, 1761), Memoires p. 1 ff.; summary in the Histoire, section Geometrie, p. 79: 'L'idee de M. de Piles est ingenieuse et nouvelle' but 'il n'en est pas de meme du cote de l'execution'; Mairan's main correction is that the four degrees should be multiplied, not added. Mairan adopts the idea as 'essais de justesse'. Scan: archive.org histoiredelacad55acad. The spec attaches this item to De Piles; the v0.1 transcription had wrongly placed it under Richardson.",
+        "Graddy, 'Taste Endures! The Rankings of Roger de Piles (d. 1709) and Three Centuries of Art Prices', Journal of Economic History 73(3), 2013, pp. 766-791, doi 10.1017/S0022050713000600 (abstract read via Crossref: his overall ratings 'have withstood the test of a very long period of time'); Ginsburgh and Weyers, 'De Piles, Drawing and Color. An Essay in Quantitative Art History', Artibus et Historiae 23(45), 2002, pp. 191-203 (citation verified via Crossref; text not read in full). Scholars treating the ratings as a usable instrument is recorded as a field-level grant; predictive power is NOT counted as proof he was right."
+      ],
+      "uncertainty": "medium",
+      "spec_only_fields": [
+        "id",
+        "text",
+        "lineage",
+        "saturation",
+        "displacement",
+        "feedback"
+      ]
+    }
+  },
+  {
+    "id": "event-richardson-two-discourses-1719",
+    "field_state_ref": "world-field-state-paris-london-1708-1765",
+    "speaker": "Jonathan Richardson",
+    "text": "Two Discourses (1719)",
+    "orientation": "empirical-judicial",
+    "position": "London portrait painter and theorist addressing gentlemen who are 'Lovers' and 'Connoisseurs' or may become so (Two Discourses 1719, discourse II p. 157)",
+    "lineage": {
+      "origin": "De Piles' attribute method",
+      "mutations": [
+        {
+          "year": 1715,
+          "type": "amplified",
+          "note": "Invention, Handling, Grace and Greatness added"
+        },
+        {
+          "year": 1719,
+          "type": "amplified",
+          "note": "connoisseurship systematized as a 'science'"
+        },
+        {
+          "year": null,
+          "type": "inverted",
+          "note": "Ruskin abandons judicial detachment"
+        }
+      ]
+    },
+    "saturation": {
+      "occupancy": "low in English",
+      "differentiation": "first systematic English method of criticism"
+    },
+    "legitimation": {
+      "authority_claim": [
+        "connoisseurship is a science with dignity, certainty, pleasure and advantage, open to gentlemen (title of Two Discourses, discourse II)"
+      ],
+      "claimed_vs_granted": "ri_science: claimed field; granted coterie by French-reading public on the Continent (via the Amsterdam translation) (delayed, granted, high); coterie by painters and their biographers (posthumous, granted, high)"
+    },
+    "reception_distribution": [
+      {
+        "community": "French-reading public on the Continent (via the Amsterdam translation)",
+        "timing": "delayed",
+        "outcome": "granted",
+        "granted_level": "coterie",
+        "resonance": "low",
+        "misreading": null,
+        "rejection": "none",
+        "event_ref": "e_ri_fr1728",
+        "year": 1728,
+        "confidence": "high"
+      },
+      {
+        "community": "painters and their biographers",
+        "timing": "posthumous",
+        "outcome": "granted",
+        "granted_level": "coterie",
+        "resonance": "low",
+        "misreading": null,
+        "rejection": "none",
+        "event_ref": "e_ri_northcote",
+        "year": 1813,
+        "confidence": "high"
+      }
+    ],
+    "displacement": {
+      "belief_delta": "attribution framed as a learnable discipline",
+      "misfire_risk": "unmeasured"
+    },
+    "feedback": {
+      "world_state_deltas": [
+        "'criticism as rational science' joins the English sayable_set"
+      ]
+    },
+    "evidence": {
+      "events": [
+        "e_ri_claim",
+        "e_ri_fr1728",
+        "e_ri_northcote"
+      ],
+      "sources": [
+        "Richardson, Two Discourses, London: W. Churchill, 1719, discourse II title page: 'An Argument in behalf of the Science of a Connoisseur; wherein is shewn the Dignity, Certainty, Pleasure, and Advantage of it'; addressed to 'Gentlemen who are Not yet Lovers, and Connoisseurs' (discourse II p. 157). Scan: archive.org twodiscoursesies00rich",
+        "Traite de la peinture et de la sculpture, par Mrs. Richardson, pere et fils, Amsterdam: Herman Uytwerf, 1728, 3 vols; vol. II title page: 'Un Discours sur la Science d'un Connoisseur ... Traduit de l'Anglois, revu et corrige par l'Auteur' (nine years after 1719; Richardson d. 1745). A translation exists and the author revised it; no sales or review evidence was found. Scans: archive.org bub_gb_54yu83dWracC, bub_gb_CMR_s1fWdKkC",
+        "James Northcote, Memoirs of Sir Joshua Reynolds, London: Henry Colburn, 1813, p. 179: of Richardson's 'Science of a Connoisseur' 'The whole subject is well handled by Richardson, and may be read with pleasure'. One painter-biographer, 68 years after Richardson's death; the praise is for how the Science treats one subject (Ugolino) and is read here as mild approval of the work, not as a verdict on the connoisseurship claim. (Not coded: Northcote pp. 10-11 say Reynolds as a boy read Richardson's Theory of Painting and had his 'first fondness for his art excited' by it; that is reception of the Theory, undated, not of the connoisseurship claim.) Scan: archive.org memoirsofsirjosh01nort"
+      ],
+      "uncertainty": "medium",
+      "spec_only_fields": [
+        "id",
+        "text",
+        "lineage",
+        "saturation",
+        "displacement",
+        "feedback"
+      ]
+    }
+  },
+  {
+    "id": "event-diderot-salon-1765",
+    "field_state_ref": "world-field-state-paris-london-1708-1765",
+    "speaker": "Denis Diderot",
+    "text": "Salon de 1765 (Greuze passage)",
+    "orientation": "embodied-dialogic",
+    "position": "Encyclopedie editor writing for a private manuscript newsletter (spec section 5.3), outside any art institution",
+    "lineage": {
+      "origin": "Salons from 1759",
+      "mutations": [
+        {
+          "year": 1765,
+          "type": "amplified",
+          "note": "diegetic immersion: the critic speaks to the painted figure"
+        },
+        {
+          "year": null,
+          "type": "domesticated",
+          "note": "Proust's Elstir passages"
+        }
+      ]
+    },
+    "saturation": {
+      "occupancy": "open",
+      "differentiation": "criticism as an autonomous literary performance"
+    },
+    "legitimation": {
+      "authority_claim": [
+        "the Salon review is itself a literary work whose standing is the writer's own"
+      ],
+      "claimed_vs_granted": "di_salon: claimed coterie; granted coterie by Grimm's Correspondance subscriber circle of European courts (immediate, granted, medium); canon by later scholars, editors, markets and canon-makers (posthumous, granted, low); coterie by later scholars, editors, markets and canon-makers (posthumous, granted, medium)"
+    },
+    "reception_distribution": [
+      {
+        "community": "Grimm's Correspondance subscriber circle of European courts",
+        "timing": "immediate",
+        "outcome": "granted",
+        "granted_level": "coterie",
+        "resonance": "low",
+        "misreading": null,
+        "rejection": "none",
+        "event_ref": "e_di_now",
+        "year": 1759,
+        "confidence": "medium"
+      },
+      {
+        "community": "later scholars, editors, markets and canon-makers",
+        "timing": "posthumous",
+        "outcome": "granted",
+        "granted_level": "canon",
+        "resonance": "high",
+        "misreading": null,
+        "rejection": "none",
+        "event_ref": "e_di_canon",
+        "year": 1795,
+        "confidence": "low"
+      },
+      {
+        "community": "later scholars, editors, markets and canon-makers",
+        "timing": "posthumous",
+        "outcome": "granted",
+        "granted_level": "coterie",
+        "resonance": "low",
+        "misreading": null,
+        "rejection": "none",
+        "event_ref": "e_di_pub",
+        "year": 1800,
+        "confidence": "medium"
+      }
+    ],
+    "displacement": {
+      "taste_delta": "sentimental genre painting (Greuze) given a raison d'être",
+      "misfire_risk": "critic overwrites the work"
+    },
+    "feedback": {
+      "world_state_deltas": [
+        "'criticism as sentimental performance' moves from anomalous to sayable"
+      ]
+    },
+    "evidence": {
+      "events": [
+        "e_di_claim",
+        "e_di_now",
+        "e_di_pub",
+        "e_di_canon"
+      ],
+      "sources": [
+        "fr.wikipedia 'Salons (Diderot)' (secondary, read): nine Salons written 1759-1781 for Grimm's Correspondance litteraire. Primary text not read.",
+        "ARTFL (Univ. of Chicago) 'Grimm's Correspondance litteraire' page (read): newsletter 'distributed between 1753 and 1790', a 'very small' subscriber base including European nobles; Diderot 'first published' the Salons there. fr.wikipedia 'Salons (Diderot)': each copy handwritten for a subscriber. Subscriber count not found.",
+        "fr.wikipedia 'Salons (Diderot)' (secondary, read): Salons de 1765 et 1767 edited posthumously by J.-A. Naigeon, Paris, 1800, vol. 13 (cites Gallica; not opened). One editor printing the text. Another snippet gave 1795 for the first printing; the dates conflict and are unresolved.",
+        "perplexity-2026-11-14: 'fame among later writers'. No source found for canon status or for the date. Kept as low confidence; excluded from the evidence-grade pass."
+      ],
+      "uncertainty": "medium",
+      "spec_only_fields": [
+        "id",
+        "text",
+        "lineage",
+        "saturation",
+        "displacement",
+        "feedback"
+      ]
+    }
+  }
+]
