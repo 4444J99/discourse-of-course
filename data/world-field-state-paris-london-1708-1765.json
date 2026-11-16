@@ -1,0 +1,65 @@
+{
+  "id": "world-field-state-paris-london-1708-1765",
+  "component": "world",
+  "axioms": [
+    {
+      "id": "W1",
+      "statement": "Authority is a system, not a person."
+    },
+    {
+      "id": "W4a",
+      "statement": "Channels are additive: new distribution channels join old ones."
+    },
+    {
+      "id": "W4b",
+      "statement": "Consecrating authority migrates: a new consecrator displaces the prior one."
+    }
+  ],
+  "field_state": {
+    "period": "1708-1765, Paris and London",
+    "authority_map": {
+      "who_can_speak": [
+        "academicians",
+        "learned theorists",
+        "gentleman-connoisseurs",
+        "philosophes writing for subscribers"
+      ],
+      "whose_judgments_count": [
+        "Académie Royale",
+        "the court's taste",
+        "Grand Tour collectors"
+      ],
+      "gatekeepers": [
+        "Académie Royale de Peinture et de Sculpture",
+        "royal censors",
+        "subscription newsletters"
+      ]
+    },
+    "channels": [
+      "academies",
+      "learned treatises",
+      "public Salon exhibitions",
+      "manuscript subscription newsletters",
+      "public print"
+    ],
+    "visibility_regime": "Distribution through print and the biennial Salon; discovery mediated by the Académie and private subscriber networks (W2: separate layers)",
+    "sayable_set": [
+      "disegno outranks color (orthodox)",
+      "color is the soul of painting (contested, sayable after 1673)",
+      "criticism as rational science",
+      "criticism as sentimental performance (anomalous until c. 1765)"
+    ]
+  },
+  "core_algorithms": [],
+  "diagnostic_questions": [
+    {
+      "id": "WD-3",
+      "question": "Are authority structures of the period named or contested, never assumed?",
+      "valid_if": "authority_map consulted"
+    }
+  ],
+  "source": {
+    "origin": "legitimation-pilot-spec.md section 5.2 (Perplexity output), transcribed unchanged",
+    "note": "Not independently verified, except that the Cours de peinture of 1708 carries a royal censor's approbation (Raguet, 19 Jan 1708), which supports 'royal censors' as a gatekeeper."
+  }
+}
