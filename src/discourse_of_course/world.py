@@ -42,7 +42,7 @@ def validate_field_state(d: dict[str, Any]) -> list[str]:
         errs.append("id must start with 'world-field-state-'")
     axioms = d["axioms"]
     if not isinstance(axioms, list) or not all(
-        isinstance(a, dict) and a.get("id") and isinstance(a.get("statement"), str) and a["statement"] for a in axioms
+        isinstance(a, dict) and isinstance(a.get("id"), str) and a["id"] and isinstance(a.get("statement"), str) and a["statement"] for a in axioms
     ):
         errs.append("axioms must be a list of {id, statement}")
         return errs

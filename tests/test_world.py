@@ -71,6 +71,9 @@ class WorldTest(unittest.TestCase):
         d = fresh()
         d["axioms"][0]["statement"] = 5
         self.assertTrue(W.validate_field_state(d))
+        d = fresh()
+        d["axioms"][0]["id"] = [1]
+        self.assertTrue(W.validate_field_state(d))
         self.assertTrue(W.channels_additive({}, DATA))
         self.assertTrue(W.consecrator_migrates(DATA, {"field_state": {}}))
 
