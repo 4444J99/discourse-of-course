@@ -1,7 +1,7 @@
 {
   "schema": "discourse-of-course/legitimation-pilot/v0",
   "scope": "Paris-London art criticism, 1699-1813 (critics active 1708-1765), three critics with documented but different routes to standing",
-  "note": "v0.2. The De Piles and Richardson reception rows are sourced from texts read in full-text scans (editions and pages in each 'source'; scans listed in docs/sources.md). Level rule used for every row: a single named receiver or editor acting alone is 'coterie'; a body acting formally is 'field'; 'canon' needs a source that says so and none was found. Confidence: high = primary text read; medium = authoritative secondary read, or a primary read with an estimated date; low = unsourced. Unsourced rows are kept as low and cannot carry the verdict. Nothing here is a finding about whether any critic was right.",
+  "note": "v0.2. The De Piles and Richardson reception rows are sourced from texts read in full-text scans (editions and pages in each 'source'; scans listed in docs/sources.md). Level rule used for every row: a single named receiver or editor acting alone is 'coterie'; a body acting formally, or several independent studies in agreement, is 'field'; 'canon' needs a source that says so and none was found. Confidence: high = primary text read; medium = authoritative secondary read, or a primary read with an estimated date; low = unsourced. Unsourced rows are kept as low and cannot carry the verdict. Nothing here is a finding about whether any critic was right.",
   "receivers": [
     {"id": "academie", "name": "Royal Academy of Painting and Sculpture (Paris), its Protector and members"},
     {"id": "amateurs", "name": "collectors and amateurs (connoisseur public)"},
@@ -77,7 +77,7 @@
       "receiver": "academie",
       "outcome": "granted",
       "granted": "field",
-      "source": "Same volume, p. 268 (6 July 1699): the Protector 'a fort recommande a la Compagnie d'en faire le cas qu'il merite' and said the Academie should address him through De Piles. Earlier, p. 259 (25 April 1699): the Compagnie invites him to take a seat among the Conseillers honoraires. The Discours itself is not transcribed in the volume.",
+      "source": "Same volume, p. 268 (6 July 1699): the Protector 'a fort recommande a la Compagnie d'en faire le cas qu'il merite' and said the Academie should address him through De Piles. Earlier, p. 259 (25 April 1699): the Compagnie invites him to take a seat among the Conseillers honoraires. The Discours is transcribed from p. 269 (to about p. 273), and on 24 July 1699 the Compagnie re-read it as a body ('du Discours de M' De Piles, cy-devant transcript', p. 274): the formal act that makes this 'field' under the level rule.",
       "confidence": "high"
     },
     {
@@ -160,7 +160,7 @@
       "receiver": "practitioners",
       "outcome": "granted",
       "granted": "coterie",
-      "source": "James Northcote, Memoirs of Sir Joshua Reynolds, London: Henry Colburn, 1813, p. 179: of Richardson's 'Science of a Connoisseur' 'The whole subject is well handled by Richardson, and may be read with pleasure'. One painter-biographer, 68 years after Richardson's death. (Not coded: Northcote pp. 10-11 say Reynolds as a boy read Richardson's Theory of Painting and had his 'first fondness for his art excited' by it; that is reception of the Theory, undated, not of the connoisseurship claim.) Scan: archive.org memoirsofsirjosh01nort",
+      "source": "James Northcote, Memoirs of Sir Joshua Reynolds, London: Henry Colburn, 1813, p. 179: of Richardson's 'Science of a Connoisseur' 'The whole subject is well handled by Richardson, and may be read with pleasure'. One painter-biographer, 68 years after Richardson's death; the praise is for how the Science treats one subject (Ugolino) and is read here as mild approval of the work, not as a verdict on the connoisseurship claim. (Not coded: Northcote pp. 10-11 say Reynolds as a boy read Richardson's Theory of Painting and had his 'first fondness for his art excited' by it; that is reception of the Theory, undated, not of the connoisseurship claim.) Scan: archive.org memoirsofsirjosh01nort",
       "confidence": "high"
     },
     {
