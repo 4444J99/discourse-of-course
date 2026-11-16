@@ -6,7 +6,7 @@ A first-principles framework for discourse about art: a critic's **orientation**
 >
 > "Expand the legitimation direction from the uploaded research into a concrete next step" (owner, 2026-11-14)
 
-The Perplexity project holds a seven-slot model, an 18-persona matrix across eight aesthetic families and three vantages, a design proposal for a protocol-bound generator with world and receiver components, a Minotaur poem panel trial ("THE WALLS"), and a commissioning package for eight critical schools. Two of the project files are now imported under `docs/perplexity/` (the legitimation pilot spec and the Minotaur poem panel; provenance in `docs/perplexity/PROVENANCE.md`); nine others are listed there and not yet fetched.
+The Perplexity project holds a seven-slot model, an 18-persona matrix across eight aesthetic families and three vantages, a design proposal for a protocol-bound generator with world and receiver components, a Minotaur poem panel trial ("THE WALLS"), and a commissioning package for eight critical schools. Two of the project files are now imported under `docs/perplexity/` (the legitimation pilot spec and the Minotaur poem panel; provenance in `docs/perplexity/PROVENANCE.md`); nine more project files, including the design proposal, are imported alongside them.
 
 ## First slice: legitimation pilot
 
@@ -69,17 +69,33 @@ Also kept, and now listed:
 - **Richardson's receivers.** The spec's immediate receiver is a projected Grand Tour gentry, "projected, not attested"; the pilot records only attested receptions (1728 translation, Northcote 1813) and has no immediate row for him.
 - **The Mairan item.** The spec places it under De Piles. The v0.1 pilot transcription had put it under Richardson; that was the transcription's error, fixed in PR 2.
 
-Not yet implemented from the spec:
+Reconciliation against the whole spec (status as of this commit; "built" means encoded and checked by the validator or tests):
 
-- The house-schema mapping (section 5: `lineage`, `saturation`, `reception_distribution`, `displacement`, `feedback`, plus the `legitimation` block and a `timing` key on receptions), and the W4 split into W4a (channels are additive) and W4b (consecrating authority migrates) before encoding.
-- Pilot test item 2 (hold the field fixed, swap position, and show orientation stays put). The validator only enforces that orientation is fixed input and distinct across critics.
-- The 1673-2013 timeline (section 4), the 1722 Account, and the Ruskin, Schlosser and Proust receptions.
-- Spec section 8 scholarship beyond Graddy 2013 and Ginsburgh and Weyers 2002; the 2008 chapter (41 painters, 525 sales) is not read.
+| Spec item | Status |
+|---|---|
+| 1. Question: legitimation layer | Context only. |
+| 2. Pilot field, three critics, 1708-1765 | Built (three critics; v0.3 PASS). |
+| 3. Four separations (position, authority claim, granting receiver, recognition outcome) | Built as critic attributes and events. Position and granting receiver are attributes, not separate events. |
+| 3. Invariant L-1 (claimed and recognized authority are separate values) | Built (`gap = granted - asserted`, evidence-grade gap required). |
+| 3. Invariant L-2 (recognition is not correctness) | Built (forbidden-key scan on critics, claims, events, field changes). Free-text and nested keys are not scanned. |
+| 3. Split W4 into W4a (channels additive) and W4b (consecrating authority migrates) before encoding | Not built: there is no world field state in the repo. The design proposal's W4 (`docs/perplexity/world-and-receiver-organ-designs.md`, section 2.0) is the single additive axiom. |
+| 4. Timeline, 1673-2013 | Partly built. Encoded: 1699, 1708, 1715 (as De Piles reception), 1719, 1755, 1759, 2013 (2002 cited). Not encoded: 1673 Dialogue sur le coloris, 1722 Account, 1765 Greuze Salon, 1781, Ruskin / Schlosser / Proust, the 1977-1996 auction and Dictionary of Art measures. |
+| 5.1-5.3 House-schema mapping (world field state, `lineage`, `saturation`, `reception_distribution`, `displacement`, `feedback`, plus `legitimation` block and `timing` key) | Not built. The house format is section 2.3 of the design proposal; the spec's JSON in section 5 is in `docs/perplexity/legitimation-pilot-spec.md` and has not been validated against it. |
+| 6.1 Three different reception distributions matching the documented ones | Built as distinct signatures of (timing, receiver, outcome). The spec's distributions carry resonance, misreading and rejection levels; those are not coded. |
+| 6.2 Orientation independent of position (swap test) | Not built; the validator only enforces fixed orientation, distinct across critics. |
+| 6.3 A claimed/granted divergence (De Piles) | Built (gap rows; De Piles scale +1 at the scholars' receiver). |
+| 6.4 A field effect for at least one critic | Built (`field_changes`, two rows). |
+| 6 Pass: every record traces to a cited passage | Built for high-confidence rows (test checks a place in a text); medium rows are secondary or estimated. |
+| 7 Out of scope (nine other episodes, constitutive rhetoric, persona names, optimizing for legitimacy) | Respected; nothing here encodes them. |
+| 8 Scholarship: Ginsburgh and Weyers 2002 and 2008, Graddy 2013, Ginsburgh and Weyers 2006 context | Graddy 2013 abstract read; G&W 2002 cited, not read in full; G&W 2008 (41 painters, 525 sales, +64.6 lines, +11.9 percent) not read or encoded; the 2006 Poetics paper is context only. |
+| 9 Known limits (visual-art source, unverified 1715 and 1755 items, Richardson projected) | The 1715 and 1755 items were checked against primary texts (PR 2); Richardson stays thin. |
+
+Other project files, now in `docs/perplexity/` and not yet used by the pilot: the seven-slot category system, the persona-by-aesthetic-family matrix, stress test, validation corpus, commissioning package and supplement, two worked commissions, and the design proposal.
 
 ## Next
 
 1. Test v0.3 on a second period before trusting it (the spec says to apply the model to other periods only after the pilot holds).
-2. Fetch the remaining Perplexity project files (design proposal, synthesis matrix and the nine files listed in `docs/perplexity/PROVENANCE.md`), then do the spec's section 5 mapping and W4 split.
+2. Do the spec's section 5 mapping and W4 split against the imported design proposal; fetch `literature-synthesis-matrix-v2.md` and the research PDF if they exist in the project (they were not in its file list).
 3. Diderot: read the primary Salons and a scholarly edition (Naigeon 1800 vs the conflicting 1795 date).
 
 ## Review dispositions (independent review, 2 rounds, 2026-11-15)

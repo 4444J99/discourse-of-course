@@ -196,9 +196,19 @@ class PilotTest(unittest.TestCase):
         import hashlib, re
         d = Path(__file__).resolve().parents[1] / "docs" / "perplexity"
         prov = (d / "PROVENANCE.md").read_text(encoding="utf-8")
-        for name in ("legitimation-pilot-spec.md", "minotaur-poem-critic-panel.md"):
+        names = sorted(p.name for p in d.glob("*.md") if p.name != "PROVENANCE.md")
+        self.assertEqual(len(names), 11)
+        for name in names:
             digest = hashlib.sha256((d / name).read_bytes()).hexdigest()
             self.assertIn(digest, prov, name)
+            self.assertIn(f"`{name}` | {len((d / name).read_bytes())} |", prov, name)
+
+    def test_no_signed_links_are_stored(self):
+        root = Path(__file__).resolve().parents[1]
+        for p in list((root / "docs").rglob("*.md")) + [root / "README.md"]:
+            text = p.read_text(encoding="utf-8")
+            self.assertNotIn("Key-Pair-Id", text, p.name)
+            self.assertNotIn("Signature=", text, p.name)
 
     def test_timing_vocabulary_matches_the_spec(self):
         self.assertEqual(L.TIMINGS, ("immediate", "delayed", "posthumous"))
