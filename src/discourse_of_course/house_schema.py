@@ -14,8 +14,14 @@ What is derived and what is copied:
   row is not high confidence or the critic has no immediate row, else "low";
 * derived from the pilot: speaker, orientation, position, authority_claim, claimed_vs_granted,
   reception_distribution, evidence;
-* copied from the spec unchanged (data/spec-event-extras.json): id, text, lineage, saturation,
-  displacement, feedback. The pilot cannot produce them and they are not independently verified.
+* derived from the pilot (``basis: "derived"``): ``lineage.mutations`` (one entry per recorded outcome row
+  where a later receiver took the scale up and corrected it, outcome ``contested``) and
+  ``feedback.world_state_deltas`` (one entry per recorded field change, with the event it follows);
+* copied from the spec unchanged (data/spec-event-extras.json, ``basis`` names why): id, text,
+  lineage.origin (supported by the research PDF, a secondary source, for De Piles only), saturation and
+  displacement. The pilot cannot produce them and they are not independently verified;
+* the spec's own lineage mutations and feedback deltas that the pilot does not support are kept apart under
+  ``unverified_spec_mutations`` and ``unverified_spec_world_state_deltas``, never mixed into the derived lists.
 
 The spec's own reception_distribution entries are not used: they carry resonance, misreading
 and rejection levels that the sourced pilot does not support (for example Mairan as a high
@@ -56,6 +62,41 @@ def _uncertainty(rows: list[dict[str, Any]]) -> str:
     return "low"
 
 
+# Why each copied value stays copied. "not derivable" says what evidence a derivation would need.
+SATURATION_BASIS = ("spec, not derivable: occupancy and differentiation compare a critic with other speakers in "
+                    "the same slot, and the pilot records three critics in three different slots")
+DISPLACEMENT_BASIS = ("spec, not derivable: taste_delta, belief_delta and misfire_risk need a before/after "
+                      "measure of taste or belief; the pilot's field changes are channel and instrument changes, "
+                      "carried under feedback")
+LINEAGE_ORIGIN_BASIS = {
+    "de_piles": "spec; the research PDF (docs/research, De Piles paragraph) also gives the 1673 Dialogue sur le "
+                "coloris as the source of 'color is the soul of painting' (secondary source, primary not read)",
+}
+LINEAGE_ORIGIN_DEFAULT = "spec only; no source in the pilot or the research PDF names an origin for this critic's text"
+
+
+def _mutations(outs: list[dict[str, Any]], receivers: dict[str, str]) -> list[dict[str, Any]]:
+    """A later receiver that took the claim up and corrected it changed the text it received (outcome contested)."""
+    return [{
+        "year": e["year"],
+        "type": "corrected",
+        "note": f"{receivers[e['receiver']]} takes the claim up and corrects it ({e['timing']}, {e['confidence']})",
+        "event_ref": e["id"],
+        "basis": "derived",
+    } for e in outs if e["outcome"] == "contested"]
+
+
+def _world_state_deltas(c: dict[str, Any], pilot: dict[str, Any]) -> list[dict[str, Any]]:
+    by_id = {e["id"]: e for e in pilot["events"]}
+    return [{
+        "delta": fc["change"],
+        "field_change_ref": fc["id"],
+        "because": fc["because"],
+        "because_confidence": by_id[fc["because"]]["confidence"],
+        "basis": "derived",
+    } for fc in pilot["field_changes"] if fc["critic"] == c["id"]]
+
+
 def build_events(pilot: dict[str, Any], field_state: dict[str, Any], extras: dict[str, Any]) -> list[dict[str, Any]]:
     receivers = {r["id"]: r["name"] for r in pilot["receivers"]}
     claims = {cl["id"]: cl for c in pilot["critics"] for cl in c["claims"]}
@@ -89,20 +130,32 @@ def build_events(pilot: dict[str, Any], field_state: dict[str, Any], extras: dic
             "text": ex["text"],
             "orientation": c["orientation"],
             "position": c["position"],
-            "lineage": ex["lineage"],
-            "saturation": ex["saturation"],
+            "lineage": {
+                "origin": ex["lineage"]["origin"],
+                "origin_basis": LINEAGE_ORIGIN_BASIS.get(c["id"], LINEAGE_ORIGIN_DEFAULT),
+                "mutations": _mutations(outs, receivers),
+                "mutations_basis": "derived from the pilot's contested outcome rows; none recorded is an empty list",
+                "unverified_spec_mutations": ex["lineage"]["mutations"],
+            },
+            "saturation": {**ex["saturation"], "basis": SATURATION_BASIS},
             "legitimation": {
                 "authority_claim": [cl["text"] for cl in c["claims"]],
                 "claimed_vs_granted": " | ".join(cvg),
             },
             "reception_distribution": dist,
-            "displacement": ex["displacement"],
-            "feedback": ex["feedback"],
+            "displacement": {**ex["displacement"], "basis": DISPLACEMENT_BASIS},
+            "feedback": {
+                "world_state_deltas": _world_state_deltas(c, pilot),
+                "world_state_deltas_basis": "derived from the pilot's field_changes; none recorded is an empty list",
+                "unverified_spec_world_state_deltas": ex["feedback"]["world_state_deltas"],
+            },
             "evidence": {
                 "events": [e["id"] for e in evs],
                 "sources": [e["source"] for e in evs],
                 "uncertainty": _uncertainty(dist),
-                "spec_only_fields": ["id", "text", "lineage", "saturation", "displacement", "feedback"],
+                "spec_only_fields": ["id", "text"],
+                "partly_spec_fields": ["lineage.origin", "saturation", "displacement"],
+                "derived_fields": ["lineage.mutations", "feedback.world_state_deltas"],
             },
         })
     return out

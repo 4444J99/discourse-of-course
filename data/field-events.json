@@ -8,7 +8,25 @@
     "position": "amateur: Conseiller honoraire of the Academie royale from 1699 (Procès-verbaux III p. 259; listed 'Conseiller-Amateur' IV p. 81 by inference), outside its teaching hierarchy",
     "lineage": {
       "origin": "Dialogue sur le coloris (1673)",
+      "origin_basis": "spec; the research PDF (docs/research, De Piles paragraph) also gives the 1673 Dialogue sur le coloris as the source of 'color is the soul of painting' (secondary source, primary not read)",
       "mutations": [
+        {
+          "year": 1715,
+          "type": "corrected",
+          "note": "collectors and amateurs (connoisseur public) takes the claim up and corrects it (posthumous, high)",
+          "event_ref": "e_dp_richardson",
+          "basis": "derived"
+        },
+        {
+          "year": 1755,
+          "type": "corrected",
+          "note": "Academie royale des sciences (Paris) takes the claim up and corrects it (posthumous, high)",
+          "event_ref": "e_dp_mairan",
+          "basis": "derived"
+        }
+      ],
+      "mutations_basis": "derived from the pilot's contested outcome rows; none recorded is an empty list",
+      "unverified_spec_mutations": [
         {
           "year": 1708,
           "type": "amplified",
@@ -23,7 +41,8 @@
     },
     "saturation": {
       "occupancy": "low",
-      "differentiation": "first numerical rating of painters"
+      "differentiation": "first numerical rating of painters",
+      "basis": "spec, not derivable: occupancy and differentiation compare a critic with other speakers in the same slot, and the pilot records three critics in three different slots"
     },
     "legitimation": {
       "authority_claim": [
@@ -84,10 +103,21 @@
     ],
     "displacement": {
       "taste_delta": "Color legitimized as an independent criterion",
-      "misfire_risk": "quantitative reductionism"
+      "misfire_risk": "quantitative reductionism",
+      "basis": "spec, not derivable: taste_delta, belief_delta and misfire_risk need a before/after measure of taste or belief; the pilot's field changes are channel and instrument changes, carried under feedback"
     },
     "feedback": {
       "world_state_deltas": [
+        {
+          "delta": "numbered scales become an instrument scholars use to test reputation against later prices and acclaim (Graddy 2013)",
+          "field_change_ref": "fc_dp",
+          "because": "e_dp_later",
+          "because_confidence": "medium",
+          "basis": "derived"
+        }
+      ],
+      "world_state_deltas_basis": "derived from the pilot's field_changes; none recorded is an empty list",
+      "unverified_spec_world_state_deltas": [
         "'color is the soul of painting' moves from contested to sayable",
         "numerical rating enters the channel repertoire"
       ]
@@ -112,11 +142,16 @@
       "uncertainty": "medium",
       "spec_only_fields": [
         "id",
-        "text",
-        "lineage",
+        "text"
+      ],
+      "partly_spec_fields": [
+        "lineage.origin",
         "saturation",
-        "displacement",
-        "feedback"
+        "displacement"
+      ],
+      "derived_fields": [
+        "lineage.mutations",
+        "feedback.world_state_deltas"
       ]
     }
   },
@@ -129,7 +164,10 @@
     "position": "London portrait painter and theorist addressing gentlemen who are 'Lovers' and 'Connoisseurs' or may become so (Two Discourses 1719, discourse II p. 157)",
     "lineage": {
       "origin": "De Piles' attribute method",
-      "mutations": [
+      "origin_basis": "spec only; no source in the pilot or the research PDF names an origin for this critic's text",
+      "mutations": [],
+      "mutations_basis": "derived from the pilot's contested outcome rows; none recorded is an empty list",
+      "unverified_spec_mutations": [
         {
           "year": 1715,
           "type": "amplified",
@@ -149,7 +187,8 @@
     },
     "saturation": {
       "occupancy": "low in English",
-      "differentiation": "first systematic English method of criticism"
+      "differentiation": "first systematic English method of criticism",
+      "basis": "spec, not derivable: occupancy and differentiation compare a critic with other speakers in the same slot, and the pilot records three critics in three different slots"
     },
     "legitimation": {
       "authority_claim": [
@@ -185,10 +224,13 @@
     ],
     "displacement": {
       "belief_delta": "attribution framed as a learnable discipline",
-      "misfire_risk": "unmeasured"
+      "misfire_risk": "unmeasured",
+      "basis": "spec, not derivable: taste_delta, belief_delta and misfire_risk need a before/after measure of taste or belief; the pilot's field changes are channel and instrument changes, carried under feedback"
     },
     "feedback": {
-      "world_state_deltas": [
+      "world_state_deltas": [],
+      "world_state_deltas_basis": "derived from the pilot's field_changes; none recorded is an empty list",
+      "unverified_spec_world_state_deltas": [
         "'criticism as rational science' joins the English sayable_set"
       ]
     },
@@ -206,11 +248,16 @@
       "uncertainty": "medium",
       "spec_only_fields": [
         "id",
-        "text",
-        "lineage",
+        "text"
+      ],
+      "partly_spec_fields": [
+        "lineage.origin",
         "saturation",
-        "displacement",
-        "feedback"
+        "displacement"
+      ],
+      "derived_fields": [
+        "lineage.mutations",
+        "feedback.world_state_deltas"
       ]
     }
   },
@@ -223,7 +270,10 @@
     "position": "Encyclopedie editor writing for a private manuscript newsletter (spec section 5.3), outside any art institution",
     "lineage": {
       "origin": "Salons from 1759",
-      "mutations": [
+      "origin_basis": "spec only; no source in the pilot or the research PDF names an origin for this critic's text",
+      "mutations": [],
+      "mutations_basis": "derived from the pilot's contested outcome rows; none recorded is an empty list",
+      "unverified_spec_mutations": [
         {
           "year": 1765,
           "type": "amplified",
@@ -238,7 +288,8 @@
     },
     "saturation": {
       "occupancy": "open",
-      "differentiation": "criticism as an autonomous literary performance"
+      "differentiation": "criticism as an autonomous literary performance",
+      "basis": "spec, not derivable: occupancy and differentiation compare a critic with other speakers in the same slot, and the pilot records three critics in three different slots"
     },
     "legitimation": {
       "authority_claim": [
@@ -286,10 +337,21 @@
     ],
     "displacement": {
       "taste_delta": "sentimental genre painting (Greuze) given a raison d'être",
-      "misfire_risk": "critic overwrites the work"
+      "misfire_risk": "critic overwrites the work",
+      "basis": "spec, not derivable: taste_delta, belief_delta and misfire_risk need a before/after measure of taste or belief; the pilot's field changes are channel and instrument changes, carried under feedback"
     },
     "feedback": {
       "world_state_deltas": [
+        {
+          "delta": "the Salons, written for a handful of manuscript subscribers, are printed for a general readership (Naigeon, 1800, per fr.wikipedia)",
+          "field_change_ref": "fc_di",
+          "because": "e_di_pub",
+          "because_confidence": "medium",
+          "basis": "derived"
+        }
+      ],
+      "world_state_deltas_basis": "derived from the pilot's field_changes; none recorded is an empty list",
+      "unverified_spec_world_state_deltas": [
         "'criticism as sentimental performance' moves from anomalous to sayable"
       ]
     },
@@ -309,11 +371,16 @@
       "uncertainty": "medium",
       "spec_only_fields": [
         "id",
-        "text",
-        "lineage",
+        "text"
+      ],
+      "partly_spec_fields": [
+        "lineage.origin",
         "saturation",
-        "displacement",
-        "feedback"
+        "displacement"
+      ],
+      "derived_fields": [
+        "lineage.mutations",
+        "feedback.world_state_deltas"
       ]
     }
   }
