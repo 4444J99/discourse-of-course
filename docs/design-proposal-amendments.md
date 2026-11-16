@@ -18,4 +18,10 @@ The field state `data/world-field-state-paris-london-1708-1765.json` carries W1,
 1. A `legitimation` block on event records: `authority_claim` and `claimed_vs_granted` (the proposal's `authority_map` describes the field, not a speaker's claim).
 2. A `timing` key on `reception_distribution` entries (`immediate`, `delayed`, `posthumous`), so a critic's immediate and posthumous receptions do not collapse into one profile (diagnostic RD-1 forbids a single verdict).
 
-Neither is folded into the proposal itself. The event mapping that uses them is the next change (`house_schema.py`, not yet written at this commit).
+Both are implemented in `src/discourse_of_course/house_schema.py` and `data/field-events.json` (generated; `python -m discourse_of_course.house_schema --check` fails if the file drifts from `data/pilot.json`). Neither is folded into the proposal itself.
+
+## What the event mapping derives and what it copies
+
+Derived from the sourced pilot: speaker, orientation (carried unchanged), position, `legitimation`, `reception_distribution` (one entry per pilot outcome row, with `timing`, outcome, granted level, a coarse `resonance`/`rejection` read only from level and outcome, `misreading` left null) and `evidence`. Copied unchanged from the spec section 5.3 because the pilot cannot produce them (`data/spec-event-extras.json`): `id`, `text`, `lineage`, `saturation`, `displacement`, `feedback`; they are listed in each event's `evidence.spec_only_fields`.
+
+Not carried: the spec's own `reception_distribution` entries (they include Mairan as a high rejection, Schlosser and Ruskin rows, and high/low levels the sourced record does not support).
