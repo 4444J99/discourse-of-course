@@ -52,7 +52,7 @@ class PilotTest(unittest.TestCase):
     def test_contested_rows_quote_a_reservation(self):
         for e in DATA["events"]:
             if e.get("outcome") == "contested":
-                self.assertRegex(e["source"], r"(?i)not a just idea|n'en est pas de m[eê]me|corrections?", e["id"])
+                self.assertRegex(e["source"], r"(?i)not a just idea|n'en est pas de m[eê]me", e["id"])
 
     def test_contested_is_not_a_pending_placeholder(self):
         # contested counts as a reception on the evidence-grade pass
